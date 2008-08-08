@@ -1,0 +1,82 @@
+
+欢迎来到 TeX Live
+
+   TeX Live 软件发行版为 Unix, Macintosh, Windows 和其他多种平台提供了一套完
+   整的 TeX 系统。它包含了编辑、排版、预览和打印各种语言下 TeX 文档的各类程序，
+   以及 TeX 宏与字体库的庞大集合。
+
+   这个发行版还包含了大量 TeX 相关的文档，有面向整个系统的，也有针对具体某个软件
+   包的。
+
+   关于使用授权信息，请参考顶层目录下的文本文件 [1]LICENSE.TL 和 [2] LICENSE.
+   CTAN。
+
+  从何起步
+
+   我们强烈建议你在读过《TeX Live 指南》后再开始安装。这份指南中包括一步步讲解
+   的安装方法，对顶层目录结构的介绍，等等。
+
+   简体中文版的指南在 [3]texmf-doc/doc/chinese/ 目录下，目前只有 [4]pdf 版本，
+   [5]html 版本还在制作中。其他语言的版本也在 [6]texmf-doc/doc/* 下提供。
+
+   要了解今年这个版本中最重要的改变，请阅读文档末尾的“发行历史”一节。
+
+  安装
+
+   安装脚本现在被改名为 install-tl 了，还同时有了 GUI (Windows 下默认使用) 和
+   文本模式的界面 (其他模式下默认使用)，你可以使用 -gui 或者 -no-gui 参数来强
+   制使用任一模式。
+
+   安装后的软件报更新和其他的配置工作现在由 tlmgr (TeX Live Package Manager) 
+   脚本完成，它也同时有 GUI 和文本模式。
+
+  文档
+
+   在安装了 TeX 系统之前，大部分的文档都可以在线浏览。为了更方便的查阅，你需要
+   一个网页浏览器 (比如 [9]Firefox) 用来阅读 HTML 文档。和一个 PDF 阅读器 (例
+   如[10]gv 或 [11]xpdf 或者 [12]Sumatra PDF，都是可替换 Acrobat 的自由软件)。
+     * [13]TeX Live 文档 (pdf)。
+     * [14]lshort 的中文版本 (pdf)。
+     * [15]lnotes，另一份中文的 TeX 教程 (pdf)。
+     * [16]到所有 PDF 和 HTML 文档的链接。
+     * 发行版中的 TeX FAQ: [17]英文版 (pdf)。
+
+   最后有些相关的网页供你参考。它们并未包含在 TeX Live 中。
+     * [18]http://tug.org/begin.html - 如果你是 TeX 新手，需要一些介绍性材料。
+     * [19]http://tug.org/interest.html - TeX web 资源的通用列表，包括文档、系
+       统、宏包、字体等等。
+     * [20]http://tug.org/ctan.html - Comprehensive TeX Archive Network (CTAN)
+       的一个入口，这是所有 TeX 相关内容的在线仓库。
+     * [21]http://tug.org/usergroups.html - 世界上 TeX 用户组织的列表，包括它
+       们的联络信息。我们强烈建议你参加一个用户组织，以支持 TeX Live 和其他
+       TeX 活动的开展。
+
+    祝你 TeX 愉快！
+     _________________________________________________________________
+
+   [22]TeX Live 的主页。
+
+参考文件
+
+   1. LICENSE.TL
+   2. LICENSE.CTAN
+   3. texmf-doc/doc/chinese
+   4. texmf-doc/doc/chinese/texlive-zh-cn/texlive-zh-cn.pdf
+   5. texmf-doc/doc/english/texlive-en/texlive-en.html
+   6. texmf-doc/doc/
+   7. http://tug.org/ftp/texlive/Images/
+   8. http://tug.org/ftp/texlive/Contents/
+   9. http://www.mozilla.org/
+  10. http://tug.org/applications/gv/
+  11. http://www.foolabs.com/xpdf/
+  12. http://blog.kowalczyk.info/software/sumatrapdf/
+  13. texmf-doc/doc/chinese/texlive-zh-cn/texlive-zh-cn.pdf
+  14. texmf-doc/doc/chinese/lshort-chinese/lshort-zh-cn.pdf
+  15. texmf-doc/doc/chinese/lnotes/lnotes.pdf
+  16. doc.html
+  17. texmf-doc/doc/english/FAQ-en/newfaq.pdf
+  18. http://tug.org/begin.html
+  19. http://tug.org/interest.html
+  20. http://tug.org/ctan.html
+  21. http://tug.org/usergroups.html
+  22. http://tug.org/tex-live/

@@ -1,0 +1,94 @@
+
+TeX Live Vás víta
+
+   Distribúcia softvéru TeX Live ponúka úplný systém TeX pre systémy
+   Unix, Macintosh, Windows a iné platformy. Zahàòa programy na 
+   editáciu, sadzbu, zobrazovanie a tlaè TeXovských dokumentov 
+   v mno¾stve rôznych jazykov a rozsiahly súbor TeXovských makier 
+   a kni¾níc fontov.
+
+   Distribúcia zahàòa rozsiahlu v¹eobecnú dokumentáciu o systéme TeX,
+   ako aj dokumentáciu k pripojeným softvérovým balíkom.
+
+   Informáciu o licencii si preèítajte, prosím, v koreòovom adresári 
+   v textových súboroch [1]LICENSE.TL a [2]LICENSE.CTAN.
+
+Kde zaèa»
+
+   Rozhodne Vám odporúèame preèíta» si Príruèku TeX Live predtým
+   ako zaènete s in¹taláciou. Obsahuje postupné návody, 
+   popis prieèinkov koreòového adresára a mnohé iné.
+
+   Anglické verzie Príruèky sú v hierarchii [3]texmf-doc/doc/english/
+   v obidvoch formátoch [4]html a [5]pdf. Preklady do iných
+   jazykov sú tie¾ k dispozícii na [6]texmf-doc/doc/*.
+
+   Zoznam najdôle¾itej¹ích zmien v tohtoroènej release nájdete
+   v oddieli História uvoµnených verzií na konci dokumentácie.
+
+In¹talácia
+
+   In¹talaèný skript sa teraz nazýva install-tl a má obidva operaèné
+   re¾imy:  GUI (predvoµba pre Windows) a textový (predvoµba pre v¹etky
+   ostatné systémy). Pre jednotlivé mo¾nosti sa mô¾ete rozhodnú» 
+   voµbami -gui, respektíve -no-gui.
+
+   Dodatoèné aktualizácie balíkov a ïal¹ia konfigurácia sa teraz 
+   vykonáva skriptom tlmgr (TeX Live Package Manager), ktorý má tie¾
+   obidva re¾imy - GUI a textový.
+
+Dokumentácia
+
+   Väè¹ina dokumentácie sa dá prezera» online, e¹te pred in¹taláciou 
+   systému TeX. Na èo najpohodlnej¹ie èítanie potrebujete prehliadaè
+   (napr. [7]Mozilla) HTML dokumentov a PDF (napr. [8]gv, [9]xpdf 
+   alebo [10]Sumatra PDF (voµne dostupné alternatívy k programu Acrobat) 
+   pre dokumenty PDF.
+
+     * [11][12]Dokumentácia (html) TeX Live.
+     * [13]Odkazy na v¹etku dokumentáciu v PDF a HTML.
+     * Anglická verzia [14]TeX FAQ ([15]pdf je tie¾ k dispozícii).
+
+   Na záver uvádzame pre Va¹u informáciu ïal¹ie relevantné web stránky. 
+   Tieto nie sú súèas»ou TeX Live:
+
+     * [16]http://tug.org/begin.html - ak ste TeXovský zaèiatoèník a/alebo 
+       máte záujem o úvodné materiály.
+     * [17]http://tug.org/interest.html - v¹eobecný zoznam TeXovských 
+       zdrojov na webe, obsahujúci dokumentáciu, systémy, balíky, fonty a 
+       ïal¹ie.
+     * [18]http://tug.org/ctan.html - jeden z prístupov k archívu
+       Comprehensive TeX Archive Network (CTAN), slú¾iaci ako online
+       sklad v¹etkých vecí súvisiacich s TeXom.
+     * [19]http://tug.org/usergroups.html - zoznam zdru¾ení pou¾ívateµov
+       TeXu po celom svete, spolu s kontaktnými informáciami. Rozhodne Vám
+       doporuèujeme pripoji» sa k zdru¾eniu podµa Vá¹ho výberu, na podporu 
+       in¹talácie TeX Live a iných TeXovských aktivít.
+
+    ©»astné TeXovanie!
+    _________________________________________________________________
+
+   [20]Domovská stránka TeX Live.
+
+Odkazy
+
+   1. súbor: LICENSE.TL
+   2. súbor: LICENSE.CTAN
+   3. súbor: texmf-doc/doc/english
+   4. súbor: texmf-doc/doc/english/texlive-en/texlive-en.html
+   5. súbor: texmf-doc/doc/english/texlive-en/texlive-en.pdf
+   6. súbor: texmf-doc/doc/
+   7. http://www.mozilla.org/
+   8. http://tug.org/applications/gv/
+   9. http://www.foolabs.com/xpdf/
+  10. http://blog.kowalczyk.info/software/sumatrapdf/
+  11. súbor: texmf-doc/doc/english/texlive-en/texlive-en.html
+  12. súbor: texmf-doc/doc/czechoslovak/texlive-cz/texlive-cz.html
+  13. súbor: doc.html
+  14. súbor: texmf-doc/doc/english/FAQ-en/html/
+  15. súbor: texmf-doc/doc/english/FAQ-en/newfaq.pdf
+  16. http://tug.org/begin.html
+  17. http://tug.org/interest.html
+  18. http://tug.org/ctan.html
+  19. http://tug.org/usergroups.html
+  20. http://tug.org/texlive/

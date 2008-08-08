@@ -1,0 +1,88 @@
+Bienvenue sur le TeX Live
+
+   La distribution logicielle TeX Live propose un système TeX complet pour
+   un large choix de plates-formes : Unix, MacOSX, Windows (32 bits) et
+   autres. Ce système inclut des programmes de mise en page, de
+   visualisation et d'impression de documents TeX, une large gamme de
+   macros TeX et de bibliothèques de polices.
+
+   Nous avons inclus dans la distribution une grande quantité de guides
+   généraux sur TeX, ainsi que les documentations qui accompagnent chacun
+   des paquetages spécifiques.
+
+   La licence d'utilisation et de redistribution est contenue dans les
+   fichiers [1] et [2]LICENSE.CTAN.
+
+  Par où commencer ?
+
+   Nous vous suggérons d'imprimer et de lire le guide du TeX Live avant
+   d'entreprendre toute installation. Le guide vous fournira une
+   description pas à pas de l'installation du système ainsi que
+   l'information nécessaire à son utilisation.
+
+   Des versions françaises du guide sont disponibles dans le répertoire
+   texmf-doc/doc/french, aux formats [3]html et [4]pdf . Des traductions
+   dans d'autres langues sont également disponibles dans texmf-doc/doc/*.
+
+   Une liste des principaux changements intervenus depuis l'an dernier est
+   disponible à la fin des fichiers de documentation (HTML et PDF).
+
+  Installation
+
+   Le script d'installation qui s'appelle maintenant install-tl est
+   disponible en deux versions, l'une fonctionne en mode graphique (mode
+   par défaut sous Windows) l'autre en mode texte (mode par défaut pour
+   les autres systèmes). Les options -gui (graphique) et -no-gui (texte)
+   permettent d'imposer l'un ou l'autre mode.
+   Les mises à jour et la personnalisation de l'installation sont confiées
+   depuis cette année au script tlmgr (TeX Live Package Manager) qui lui
+   aussi fonctionne en mode texte ou en mode graphique.
+
+  Documentation
+
+   La plus grande partie de la documentation peut être consultée en ligne,
+   avant toute installation. Pour y accéder de la manière la plus
+   pratique, vous aurez besoin d'un navigateur (tel que [5]Mozilla pour
+   les documents HTML, et d'un lecteur PDF (tel que Acrobat Reader ou
+   [6]gv ou [7]xpdf) pour les documents PDF.
+     * [8]Documentation TeX Live (html).
+     * [9]Liens vers la documentation HTML et PDF.
+     * FAQ TeX dans la distribution : [10]en anglais (pdf), [11]en
+       français.
+
+   Autres pages de référence sur Internet, pour votre information. Elles
+   ne sont pas incluses sur le TeX Live.
+     * [12]http://tug.org/begin.html - si vous êtes un nouvel utilisateur
+       de TeX et si vous avez besoin de tutoriels.
+     * [13]http://tug.org/interest.html - liste générale de ressources TeX
+       sur le Web : documentation, systèmes, paquetages, polices, et plus
+       encore.
+     * [14]http://tug.org/ctan.html - un point d'entrée vers le
+       Comprehensive TeX Archive Network (CTAN), qui est un dépôt en ligne
+       pour tout ce qui concerne TeX.
+     * [15]http://tug.org/usergroups.html - une liste de tous les groupes
+       d'utilisateurs TeX à travers le monde, avec leurs contacts.
+
+  Bienvenue dans le monde TeX !
+     __________________________________________________________________
+
+   Page d'accueil TeX Live : [16]http://tug.org/tex-live.
+
+Références
+
+   1. file:LICENSE.TL
+   2. file:LICENSE.CTAN
+   3. file:texmf-doc/doc/french/texlive-fr/live.html
+   4. file:texmf-doc/doc/french/texlive-fr/live.pdf
+   5. http://www.mozilla.org/
+   6. http://tug.org/applications/gv/
+   7. http://www.foolabs.com/xpdf/
+   8. file:texmf-doc/doc/english/texlive-en/live.html
+   9. file:doc.html
+  10. file:texmf-doc/doc/english/FAQ-en/newfaq.pdf
+  11. file:texmf-doc/doc/french/FAQ-fr/
+  12. http://tug.org/begin.html
+  13. http://tug.org/interest.html
+  14. http://tug.org/ctan.html
+  15. http://tug.org/usergroups.html
+  16. http://tug.org/tex-live/
