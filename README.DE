@@ -1,26 +1,25 @@
                Willkommen zu TeX Live in der TeX Collection 2008
 
-   Die TeX Live Distribution auf einer DVD bietet Ihnen ein komplettes
-   TeX-System für eine Vielzahl von Unix, Macintosh, Microsoft Windows,
-   und anderen Plattformen. Enthalten sind Programme zum Editieren, zum
-   Satz, zur Bildschirmdarstellung, und zum Ausdruck von TeX-Dokumenten in
+   Die TeX Live-Distribution auf einer DVD bietet Ihnen ein komplettes
+   TeX-System für eine Vielzahl von Unix, Macintosh, Microsoft Windows und
+   anderen Plattformen. Enthalten sind Programme zum Editieren, zum Satz,
+   zur Bildschirmdarstellung, und zum Ausdruck von TeX-Dokumenten in
    vielen Sprachen, sowie eine große Sammlung von TeX-Makros und eine
    abermals vergrößerte Anzahl von Fonts.
 
-   Die Distribution enthält auch umfangreiche allgemeine Dokumentationen
-   zu TeX, sowie detaillierte Anleitungen zu den vorhandenen
-   Programmpaketen.
+   Die Distribution enthält auch umfangreiche allgemeine Dokumentation zu
+   TeX, sowie detaillierte Anleitungen zu den vorhandenen Programmpaketen.
 
-   Informationen über Lizenzbedingungen finden Sie im Wurzelverzeichnis
-   der DVD in den Textdateien [1]LICENSE.TL und [2]LICENSE.CTAN.
+   Information über Lizenzbedingungen finden Sie im Wurzelverzeichnis der
+   DVD in den Textdateien [1]LICENSE.TL und [2]LICENSE.CTAN.
 
 Zum Einstieg
 
-   Wir empfehlen, daß Sie zunächst die "Anleitung zum TeX Live-System"
+   Wir empfehlen, dass Sie zunächst die "Anleitung zum TeX Live-System"
    ausdrucken und lesen, bevor Sie mit der Installation beginnen. Diese
-   Anleitung enthält Schritt für Schritt alle notwendigen Informationen
-   zur Benutzung der DVD sowie zur Installation selbst. Darüber hinaus
-   enthält sie eine Erläuterung der DVD Verzeichnisstruktur.
+   Anleitung enthält Schritt für Schritt alle notwendige Information zur
+   Benutzung der DVD sowie zur Installation selbst. Darüber hinaus enthält
+   sie eine Erläuterung der DVD-Verzeichnisstruktur.
 
    Sie finden die Anleitung in verschiedenen Dateiformaten im Verzeichnis
    [3]texmf-doc/doc/german/texlive-de/:
@@ -35,91 +34,92 @@ Zum Einstieg
 
 Installation
 
-   Das TeX Live-System auf der DVD ist direkt lauffähig, d. h. Sie können
+   Das TeX Live-System auf der DVD ist direkt lauffähig, d. h., Sie können
    die Programme ohne Installation von der gemounteten DVD ausführen;
-   Informationen hierzu finden Sie in der genannten "Anleitung zum TeX
+   Information hierzu finden Sie in der genannten "Anleitung zum TeX
    Live-System".
 
-   Im Regelfall werden Sie jedoch das komplette TeX Live-System auf der
-   Festplatte installieren wollen. Zur Installation dient das neue Skript
-   install-tl, mit einer Fensteroberfläche (GUI, Default für Windows) oder
-   mit Text-Interface (Default für alle anderen Betriebssysteme). Sie
-   können den gewünschten Modus durch die Optionen -gui and -no-gui
+   Im Regelfall werden Sie jedoch das TeX Live-System auf der Festplatte
+   installieren wollen. Zur Installation dient das neue Skript install-tl,
+   mit einer Fensteroberfläche (GUI, Standard für Windows) oder mit
+   Text-Schnittstelle (Standard für alle anderen Betriebssysteme). Sie
+   können den gewünschten Modus durch die Optionen -gui oder -no-gui
    einstellen.
 
    Nach erfolgter Installation können Sie Updates und weitere
    Konfigurationen mit Hilfe des Skripts tlmgr (TeX Live Package Manager)
-   durchführen, das ebenfalls wahlweise mit Fenster- und Text-Interface
-   gestartet werden kann.
+   durchführen, das ebenfalls wahlweise mit Fenster- und
+   Text-Schnittstelle gestartet werden kann.
 
   Details zum DVD-Format
 
-   Für Unix und MacOSX-Benutzer verwendet die DVD die "Rock Ridge"
-   Erweiterungen (z. B. lange Dateinamen) zum standardisierten
+   Für Unix- und Mac OS X-Benutzer verwendet die DVD die "Rock
+   Ridge-Erweiterung" (z. B. lange Dateinamen) zum standardisierten
    ISO-9660-Format. Unter Angabe dieses Formats lassen sie sich einfach
-   "mounten". Windows 9X/ME/NT/2K/XP-Benutzer sollten auf der DVD
-   ebenfalls lange Dateinamen sehen können, da auch die Microsoft "Joliet"
-   Erweiterungen unterstützt werden. Falls Sie nur verkürzte Namen sehen,
-   können Sie die Programme leider nicht direkt starten.
+   "mounten" (einhängen). MS Windows 9X/ME/NT/2000/XP/Vista-Benutzer
+   sollten auf der DVD ebenfalls lange Dateinamen sehen können, da auch
+   die Microsoft "Joliet-Erweiterung" unterstützt wird. Falls Sie nur
+   verkürzte Namen sehen, können Sie die Programme leider nicht direkt
+   starten.
 
-   Alle, die eine TeX Live DVD selber brennen möchten (und die über einen
+   Alle, die eine TeX Live-DVD selber brennen möchten (und die über einen
    Breitband-Internetanschluss verfügen), finden [7]Hinweise zum Download
    auf der TUG-Seite.
 
-Weitere TeX Distributionen auf der DVD
+Weitere TeX-Distributionen auf der DVD
 
    Außer TeX Live enthält die DVD einen Abzug des CTAN-Archivs, die
-   Distributionen ProTeXt für Windows (siehe unten) und MacTeX für MacOSX,
-   sowie ein spezielles ConTeXt Verzeichnis. Diese Pakete sind komplett
-   unabhängig vom TeX Live-System, mit zum Teil von TeX Live abweichenden
-   Lizenzbedingungen.
+   Distributionen ProTeXt für MS Windows (siehe unten) und MacTeX für Mac
+   OS X, sowie ein spezielles ConTeXt Verzeichnis. Diese Pakete sind
+   komplett unabhängig vom TeX Live-System, mit zum Teil von TeX Live
+   abweichenden Lizenzbedingungen.
 
    ProTeXt ist eine TeX-Distribution speziell für Microsoft Windows,
-   welche auf der [8]MiKTeX Distribution basiert. Es befindet sich im
-   Wurzelverzeichnis der TeX Live DVD. ProTeXt erweitert MiKTeX um mehrere
+   welche auf der [8]MiKTeX-Distribution basiert. Es befindet sich im
+   Wurzelverzeichnis der TeX Live-DVD. ProTeXt erweitert MiKTeX um mehrere
    Programme, hat eine vereinfachte Installation, und kommt mit eigenen
    Installationsanweisungen. Auch ProTeXt kann direkt von der DVD
-   ausgeführt werden; es läßt sich ebenso auf Festplatte installieren. Die
-   ProTeXt Distribution ist vollständig unabhängig von TeX Live. Sie ist
-   aus der TeX-Distribution des Universitätsrechenzentrums der
+   ausgeführt werden; es lässt sich ebenso auf Festplatte installieren.
+   Die ProTeXt-Distribution ist vollständig unabhängig von TeX Live. Sie
+   ist aus der TeX-Distribution des Universitätsrechenzentrums der
    FernUniversität Hagen hervorgegangen.
 
-   DANTE-Mitglieder erhalten die TeX Collection DVD automatisch.
+   DANTE-Mitglieder erhalten die TeX Collection-DVD automatisch.
 
 Die Dokumentation
 
    Der größte Teil der Dokumentation kann "online" gelesen werden, noch
    bevor ein TeX-System tatsächlich installiert wurde. Diese Dokumente
    liegen normalerweise im HTML- und/oder im PDF-Format vor. Zum Lesen der
-   HTML-Dateien benötigen Sie einen Browser (z. B. [9]Firefox). Die
-   PDF-Dateien können Sie mit dem Adobe Reader betrachten, oder mit freien
-   Alternativen wie z. B. [10]gv, [11]xpdf, oder [12]Sumatra PDF.
-     * [13]TeX Live Dokumentation (HTML).
-     * [14]Links zur gesamten in TeX Live enthaltenen PDF und HTML
-       Dokumentation.
+   HTML-Dateien benötigen Sie einen passenden Browser (z. B. [9]Firefox).
+   Die PDF-Dateien können Sie mit dem Adobe Reader betrachten, oder mit
+   freien Alternativen wie z. B. [10]gv, [11]xpdf oder [12]Sumatra PDF.
+     * [13]TeX Live-Dokumentation (HTML).
+     * [14]Links zur gesamten in TeX Live enthaltenen PDF- und
+       HTML-Dokumentation.
      * Die englische [15]TeX FAQ (HTML) und [16]TeX FAQ (PDF) (häufig
        gestellte Fragen).
 
-   Schließlich ein paar interessante Links zu Informationen, welche nicht
-   in TeX Live enthalten sind:
+   Schließlich ein paar interessante Links zu Information, welche nicht in
+   TeX Live enthalten ist:
      * [17]http://tug.org/begin.html (englisch) - für alle, die neu mit
        TeX beginnen oder die sich für einführende Literatur interessieren.
      * [18]http://www.dante.de - die Deutschsprachige Anwendervereinigung
        TeX e. V.
      * [19]http://tug.org/interest.html (englisch) - eine allgemeine Liste
        von Internet-Ressourcen zu TeX, mit Verweisen zu Dokumentation,
-       Systemen, Paketen, Fonts, und mehr.
+       Systemen, Paketen, Fonts und mehr.
      * [20]http://dante.ctan.org/CTAN/ - Einstiegspunkt zum "Comprehensive
        TeX Archive Network" (CTAN), dem zentralen Umschlagplatz für alle
        TeX betreffenden Dinge.
-     * [21]http://tug.org/usergroups.html - Liste aller weltweiten TeX
-       Benutzergruppen mit Kontaktinformationen. Wir empfehlen wärmstens,
-       einer TeX Benutzergruppe Ihrer Wahl beizutreten.
+     * [21]http://tug.org/usergroups.html - Weltweite Liste aller TeX
+       Benutzergruppen, mit Kontaktinformation. Wir empfehlen wärmstens,
+       einer TeX-Benutzergruppe Ihrer Wahl beizutreten.
 
    Happy TeXing! - Viel Spaß mit TeX!
      __________________________________________________________________
 
-   $Date: 2008/08/01 20:08:43 $; [22]contact tex-live@tug.org.
+   $Date: 2008/08/10 21:54:24 $; [22]contact tex-live@tug.org.
 
 Verweise
 
