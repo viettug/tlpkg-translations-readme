@@ -28,8 +28,8 @@ Welcome to TeX Live
    documentation for the included packages and programs.
 
    If you are installing from the Internet, the above links won't work.
-   In that case, please see the documentation on the Internet at [8]the
-   TeX Live web site.
+   In that case, you can view the [8]TeX Live documentation on the
+   Internet.
 
    For a list of the most important changes in this year's release, see
    the Release history section at the end of the documentation.
@@ -46,7 +46,8 @@ Welcome to TeX Live
    likewise has both GUI and text modes.
 
    You can give the command-line option --help to both install-tl and
-   tlmgr for an overview.
+   tlmgr for an overview. See the documentation links above for (much)
+   more information.
 
   Links
 
