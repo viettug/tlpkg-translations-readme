@@ -16,30 +16,25 @@
    我们强烈建议你在读过《TeX Live 指南》后再开始安装。这份指南中包括一步步讲解
    的安装方法，对顶层目录结构的介绍，等等。
 
-   简体中文版的指南在 [3]texmf-doc/doc/chinese/ 目录下，目前只有 [4]pdf 版本，
-   [5]html 版本还在制作中。其他语言的版本也在 [6]texmf-doc/doc/* 下提供。
+   简体中文版的指南在完整发行版本 (比如 DVD) 的 [3]texmf-doc/doc/chinese/ 目录
+   下，目前只有 [4]pdf 版本，[5]html 版本还在制作中。其他语言的版本也在 
+   [6]texmf-doc/doc/* 下提供。
 
    要了解今年这个版本中最重要的改变，请阅读文档末尾的“发行历史”一节。
 
   安装
 
-   安装脚本现在被改名为 install-tl 了，还同时有了 GUI (Windows 下默认使用) 和
-   文本模式的界面 (其他模式下默认使用)，你可以使用 -gui 或者 -no-gui 参数来强
-   制使用任一模式。
+   安装脚本现在被改名为 install-tl 了 (Windows 下是 install-tl.bat)，还同时有
+   了 GUI (Windows 下默认使用) 和文本模式的界面 (其他模式下默认使用)，你可以使
+   用 -gui 或者 -no-gui 参数来强制使用任一模式。
 
-   安装后的软件报更新和其他的配置工作现在由 tlmgr (TeX Live Package Manager) 
+   安装后的软件包更新和其他的配置工作现在由 tlmgr (TeX Live Package Manager) 
    脚本完成，它也同时有 GUI 和文本模式。
 
-  文档
+   你可以用 --help 命令行参数来获得 install-tl 和 tlmgr 使用方法的概览。参见上
+   面的文档链接，那里有详细得多的信息。
 
-   在安装了 TeX 系统之前，大部分的文档都可以在线浏览。为了更方便的查阅，你需要
-   一个网页浏览器 (比如 [9]Firefox) 用来阅读 HTML 文档。和一个 PDF 阅读器 (例
-   如[10]gv 或 [11]xpdf 或者 [12]Sumatra PDF，都是可替换 Acrobat 的自由软件)。
-     * [13]TeX Live 文档 (pdf)。
-     * [14]lshort 的中文版本 (pdf)。
-     * [15]lnotes，另一份中文的 TeX 教程 (pdf)。
-     * [16]到所有 PDF 和 HTML 文档的链接。
-     * 发行版中的 TeX FAQ: [17]英文版 (pdf)。
+  链接
 
    最后有些相关的网页供你参考。它们并未包含在 TeX Live 中。
      * [18]http://tug.org/begin.html - 如果你是 TeX 新手，需要一些介绍性材料。
