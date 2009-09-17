@@ -1,129 +1,96 @@
-Vita Vas TeX Live!
+Vítejte v TeX Live
+   Softwarová distribuce TeX Live nabízí kompletní TeXový systém pro řadu
+   platforem - GNU a UNIX, Macintosh, Windows a další. Zahrnuje programy
+   pro editování, sazbu, zobrazení a tisk TeXových dokumentů v mnoha
+   různých jazycích a rozsáhlou kolekci TeXových maker a fontů.
 
-   Distribucia softveru TeX Live ponuka uplny system TeX pre siroku paletu
-   platforiem, ako su Unix, Macintosh, Windows a ine. Zahrna programy na 
-   editaciu, sadzbu, prehliadanie a tlac TeXovskych dokumentov 
-   v mnohych roznych jazykoch, ako aj obsirnu kolekciu TeXovskych makier
-   a kniznic fontov.
+   Distribuce zahrnuje obsáhlou dokumentaci o TeXu obecně, stejně jako
+   dokumentaci k zahrnutým softwarovým balíkům.
 
-   Distribucia obsahuje aj rozsiahlu celkovu dokumentaciu o TeXu, 
-   rovnako ako sprievodnu dokumentaciu k dodanym softverovym balikom.
+   Informaci o licencích najdete v kořenovém adresáři v textových
+   souborech [1]LICENSE.TL a [2]LICENSE.CTAN.
+  
+  Kde začít
+   Důrazně doporučujeme, abyste si ještě před instalací přečetli průvodce
+   TeX Live. Průvodce obsahuje instrukce "krok za krokem", popis hlavních
+   adresářů a další informace.
 
-   Informaciu o licenciach najdete, prosim, v textovych suboroch
-   [1]LICENSE.TL a [2]LICENSE.CTAN korenoveho adresara.
+   Anglické verze průvodců jsou umístěny v úplné distribuci (např. na DVD)
+   v hierarchii [3]texmf/doc/texlive ve formátech [4]html a [5]pdf. Překlady
+   do dalších jazyků jsou také dostupné v podstromu [6]texmf/doc/texlive.
 
-  Kde zacat
+   Nabízíme také [7]seznam odkazů na dostupnou dokumentaci k zahrnutým
+   balíkům a programům, opět ve formátech HTML a PDF.
 
-   Vrele Vam odporucame, aby ste si predtym, nez zacnete instalovat,
-   precitali prirucku ku TeX Live. Obsahuje postupnost navodov,
-   popis korenovych adresarov a dalsie veci.
+   Pokud instalujete z internetu, výše zmíněné odkazy vám nebudou fungovat.
+   V tom případě si ale můžete [8]dokumentaci TeX Live prohlížet
+   na internetu.
 
-   Anglicke verzie prirucky su v hierarchii [3]texmf-doc/doc/english/
-   vo formatoch [4]html aj [5]pdf. Aj preklady do viacerych jazykov
-   sa daju najst v [6]texmf-doc/doc/*.
+   Seznam nejdůležitějších změn v letošním vydání najdete v oddílu
+   Historie verzí na konci dokumentace.
 
-   Na konci dokumentacie v oddieli "Trocha historie" najdete zoznam
-   najdolezitjsich zmien v tohtorocnom vydani TeX live.
+  Instalace
+   Instalační skript se jmenuje install-tl (install-tl.bat pro Windows)
+   a můžete jej spustit ve třech režimech:
 
-  Instalacia
+   průvodce (standardní spuštění pod Windows), který se vás zeptá jen na
+          nutné minimum otázek a instalaci pak provede sám. Tento režim
+          vyberete spuštěním install-tl --gui=wizard.
 
-   Priestorove ohranicenia formatu CD-ROM nas donutili rozdelit TeX Live
-   na niekolko distribucii. Nahliadnutim do suboru 00type.TL v tomto
-   korenovom adresari zistite, s ktorou mate prave do cinenia.
+   text (standardní spuštění pro všechny ostatní systémy), který 
+          nabízí všechny možnosti prizpůsobení instalace. Tento režim
+          vyberete spuštěním install-tl --gui=text.
 
-   live
-          Uplny system na DVD; pre CD je prilis rozsiahla. Programy 
-          mozete spustat priamo z DVD mechaniky; pre podrobnosti pozri 
-          dokumentaciu. Druhou moznostou je nainstalovat TeX live na
-          disk spustenim skriptu install-tl.sh v adresari texlive 
-          pod Unixom, vratane MacOSX. V adresari setuptl najdete
-          tiez Windowsovsky instalator nazvany tlpmgui.
+   perltk, který je GUI v textovém režimu; je užitečný pro zkušené
+          uživatele Windows, kteří nechtějí použít standardní
+          nastavení. Instalaci v tomto režimu je možné zvolit buď
+          spuštěním install-tl --gui=perltk, nebo spuštěním souboru
+          install-tl-advanced.bat pod Windows.
 
-          Live DVD obsahuje aj dalsie distribucie: proTeXt (pozri nizsie); 
-          MacTeX pre MacOSX; a archiv CTAN. Kazda z tychto distribucii je
-          uplne nezavisla od distribucie TeX Live, s roznymi licencnymi
-          podmienkami.
+   Dodatečné aktualizace balíků a další konfigurace se vykonává
+   pomocí skriptu tlmgr (TeX Live Package Manager), který má také
+   režimy GUI i textový.
 
-   inst(allable)
-          Uplny system na CD, na instalaciu pre Unix (vratane MacOSX) 
-          alebo pre Windows; aby bol system v poriadku, museli sme 
-          skomprimovat vsetko, co sme mohli. Preto nie je mozne spustat 
-          TeX priamo z instalacneho CD; musite ho najskor nainstalovat
-          na disk (odtial vyplyva jeho nazov). Vykonate to spustenim
-          ./install-tl.sh pod Unixom alebo MacOSX, setuptl/tlpmgui-i386-linux
-	  (Linux), alebo spustenim setuptl/tlpmgui.exe pod Windows.
+   Spuštěním programů [9]install-tl i [10]tlmgr s volbou --help
+   získáte podrobnou informaci o obou programech. (Mnohem) více
+   informací získáte pomocí odkazů na dokumentaci zmíněných výše.
 
-   protext
-          Windowsovska distribucia proTeXt je rozsirenim MiKTeXu: 
-          pridava niekolko doplnkovych nastrojov a podstatne zjednodusuje 
-          instalaciu. Je uplne nezavisla na instalacii TeX Live a ma
-          svoje vlastne instalacne postupy. Da sa spustat nazivo (live) 
-          alebo instalovat na disk. ProTeXt sa dodava na live DVD, pripadne
-          (pre niektore zdruzenia pouzivatelov) na vlastnom CD.
+  Odkazy
 
-   Prirodzene, kazde zdruzenie pouzivatelov sa podla vlastneho uvazenia rozhodne, 
-   co bude distribuovat. (TUG zasiela vsetky tri vyssie uvedene disky vsetkym
-   svojim clenom.)
+   Na závěr pro vaši informaci uvádíme několik relevantních webových
+   stránek, které nejsou součástí TeX Live:
 
-   Podrobnosti formatu CD: CD pre Unix a Mac pouzivaju rozsirenie Rock Ridge
-   standardneho formatu ISO-9660. Pre Windows sa pouzivaju rozsirenia Microsoft
-   Joliet. V kazdom pripade by ste mali po namontovani vidiet uplne nazvy. 
-   Ak vidite neuplne odrezane nazvy, nemozete spustat programy priamo. 
-   Ak mate dobru siet a viete, ako sa napaluju disky, mozete ziskat online
-   obrazy [7]ISO. Na prezeranie je dostupny aj obsah [8].
+     * [11]http://tug.org/begin.html - pokud jste TeXový začátečník a/nebo
+       máte zájem o úvodní materiály.
+     * [12]http://tug.org/interest.html - všeobecný seznam TeXových zdrojů
+       na webu, zahrnující dokumentaci, systémy, balíky, fonty a další.
+     * [13]http://tug.org/ctan.html - jeden z přístupových bodů k archivu
+       Comprehensive TeX Archive Network (CTAN). Tento archiv slouží jako
+       online sklad všech věcí souvisejících s TeXem.
+     * [14]http://tug.org/usergroups.html - seznam uživatelských skupin TeXu
+       z celého světa, spolu s kontaktními informacemi. Rozhodně vám
+       doporučujeme, abyste se stali členy jedné z těchto skupin; podpoříte
+       tím TeX Live a další TeXové aktivity.
 
-  Dokumentacia
-
-   Vacsina dokumentacie sa da prezerat online pred instalaciou systemu TeX. 
-   Na co najprijemnejsie citanie budete potrebovat prehliadac
-   (ako napr. [9]Mozilla, volna verzia programu Netscape) dokumentov HTML
-   a citac PDF (napr. [10]gv alebo [11]xpdf, oba su volne
-   alternativy Acrobatu) pre dokumenty PDF.
-     * [12]dokumentacia TeX Live (html).
-     * [13]linky na vsetku dodanu PDF a HTML dokumentaciu.
-     * TeX FAQ v tejto distribucii: [14]cesko/slovenske, [15]anglicke
-       (pdf), [16]francuzske, [17]nemecke.
-
-   Na  zaver niekolko pribuznych web-stranok, pre Vas prehlad. Tieto nie su
-   sucastou TeX Live:
-     * [18]http://tug.org/begin.html - ak ste TeXovsky zaciatocnik a/alebo 
-       mate zaujem o uvodne materialy.
-     * [19]http://tug.org/interest.html - vseobecny zoznam TeXovskych zdrojov
-       na webe, vratane dokumentacie, systemov, balikov, fontov a dalsich veci.
-     * [20]http://tug.org/ctan.html - jeden zo vstupnych bodov na
-       Comprehensive TeX Archive Network (CTAN), ktory je online skladiskom
-       vsetkych TeXovskych veci.
-     * [21]http://tug.org/usergroups.html - celosvetovy zoznam zdruzeni 
-       pouzivatelov TeXu, obsahujuci kontaktne informacie. Nevahajte a pripojte
-       sa k Vami zvolenemu zdruzeniu pouzivatelov, podporite tak TeX Live 
-       a ine TeXovske aktivity.
-
-    Stastne TeXovanie! 
+    Příjemné TeXování!
      _________________________________________________________________
 
-   [22]domovska stranka TeX Live.
+   [15]Domovská stránka TeX Live.
 
 Odkazy
 
-   1. LICENSE.TL
-   2. LICENSE.CTAN
-   3. texmf-doc/doc/english
-   4. texmf-doc/doc/english/texlive-en/live.html
-   5. texmf-doc/doc/english/texlive-en/live.pdf
-   6. texmf-doc/doc/
-   7. http://tug.org/ftp/texlive/Images/
-   8. http://tug.org/ftp/texlive/Contents/
-   9. http://www.mozilla.org/
-  10. http://tug.org/applications/gv/
-  11. http://www.foolabs.com/xpdf/
-  12. texmf-doc/doc/english/texlive-en/live.html
-  13. doc.html
-  14. texmf-doc/doc/czechslovak/cstug/csfaq/
-  15. texmf-doc/doc/english/FAQ-en/newfaq.pdf
-  16. texmf-doc/doc/french/FAQ-fr/
-  17. texmf-doc/doc/german/FAQ-ge/
-  18. http://tug.org/begin.html
-  19. http://tug.org/interest.html
-  20. http://tug.org/ctan.html
-  21. http://tug.org/usergroups.html
-  22. http://tug.org/tex-live/
+   1. file:LICENSE.TL
+   2. file:LICENSE.CTAN
+   3. file:texmf/doc/texlive/texlive-en
+   4. file:texmf/doc/texlive/texlive-en/texlive-en.html
+   5. file:texmf/doc/texlive/texlive-en/texlive-en.pdf
+   6. file:texmf/doc/texlive/
+   7. file:doc.html
+   8. http://tug.org/texlive/doc.html
+   9. http://tug.org/texlive/install-tl.html
+  10. http://tug.org/texlive/tlmgr.html
+  11. http://tug.org/begin.html
+  12. http://tug.org/interest.html
+  13. http://tug.org/ctan.html
+  14. http://tug.org/usergroups.html
+  15. http://tug.org/texlive/
