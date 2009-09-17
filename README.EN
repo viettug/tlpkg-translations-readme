@@ -43,12 +43,13 @@ Welcome to TeX Live
           installs everything. Can be specified explicitly with
           install-tl --gui=wizard.
 
-   text (default on everything else) which has full customizatio options.
-          Can be specified explicitly with install-tl --gui=text.
+   text (default on everything else) which has full customization
+          options. Can be specified explicitly with
+          install-tl --gui=text.
 
    perltk which is a GUI for text; especially useful for knowledgeable
           Windows users who don't want the defaults. Can be specified
-          explicitly with install-tl --gui=text, or by running
+          explicitly with install-tl --gui=perltk, or by running
           install-tl-advanced.bat on Windows.
 
    Post-installation package updates and other configurations are
