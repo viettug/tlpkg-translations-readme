@@ -44,9 +44,9 @@ dla Windows), który posiada trzy tryby pracy:
 
 "wizard" (domy¶lny dla Windows) graficzny GUI, który ma ograniczon±
 do minimum listê zapytañ i instaluje wszystkie pakiety. Odpowiada to
-uruchamieniu polecenia: install-tl --gui=wizard
+uruchomieniu polecenia: install-tl --gui=wizard
 
-tekstowy (domy¶lny dla innych systemów). Odpowiada to uruchamieniu 
+tekstowy (domy¶lny dla innych systemów). Odpowiada to uruchomieniu 
 polecenia: install-tl --gui=text
 
 perltk - graficzny tryb, szczególnie przydatny dla zaawansowanych 
