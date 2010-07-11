@@ -19,16 +19,19 @@ Welcome to TeX Live
    undertaking the installation. It includes step-by-step instructions, a
    description of the top-level directories, and more.
 
-   English versions of the Guide are in the full distribution (for
-   example, on the DVD) in the [3]texmf/doc/texlive/ hierarchy, in both
-   [4]html and [5]pdf formats. Translations to other languages are also
-   available under [6]texmf/doc/texlive.
+   If you are installing from the DVD image, the Guide in English and all
+   the translations are in the [3]texlive-doc subdirectory.
 
-   We also provide a list of [7]links to the available PDF and HTML
+   After installation, English versions of the Guide are in the
+   [4]texmf/doc/texlive/ hierarchy, in both [5]html and [6]pdf formats.
+   Translations to other languages are also available under
+   [7]texmf/doc/texlive.
+
+   We also provide a list of [8]links to the available PDF and HTML
    documentation for the included packages and programs.
 
    If you are installing from the Internet, the above links won't work.
-   In that case, you can view the [8]TeX Live documentation on the
+   In that case, you can view the [9]TeX Live documentation on the
    Internet.
 
    For a list of the most important changes in this year's release, see
@@ -56,8 +59,8 @@ Welcome to TeX Live
    performed with the tlmgr (TeX Live Package Manager) script, which
    likewise has both GUI and text modes.
 
-   You can give the command-line option --help to both [9]install-tl and
-   [10]tlmgr for detailed information on both programs. See the
+   You can give the command-line option --help to both [10]install-tl and
+   [11]tlmgr for detailed information on both programs. See the
    documentation links above for (much) more information.
 
   Links
@@ -65,15 +68,15 @@ Welcome to TeX Live
    Finally, a few related web pages, for your reference. These are not
    included in TeX Live:
 
-     * [11]http://tug.org/begin.html - if you are new to TeX and/or want
+     * [12]http://tug.org/begin.html - if you are new to TeX and/or want
        introductory material.
-     * [12]http://tug.org/interest.html - general list of TeX web
+     * [13]http://tug.org/interest.html - general list of TeX web
        resources, including documentation, systems, packages, fonts, and
        more.
-     * [13]http://tug.org/ctan.html - one entry point into the
+     * [14]http://tug.org/ctan.html - one entry point into the
        Comprehensive TeX Archive Network (CTAN), which is an online
        repository of all things TeX.
-     * [14]http://tug.org/usergroups.html - list of TeX user groups
+     * [15]http://tug.org/usergroups.html - list of TeX user groups
        around the world, with contact information. We strongly encourage
        you to join the user group of your choice, to support TeX Live and
        other TeX activities.
@@ -81,22 +84,23 @@ Welcome to TeX Live
     Happy TeXing!
      _________________________________________________________________
 
-   [15]TeX Live home page.
+   [16]TeX Live home page.
 
 References
 
    1. file:LICENSE.TL
    2. file:LICENSE.CTAN
-   3. file:texmf/doc/texlive/texlive-en
-   4. file:texmf/doc/texlive/texlive-en/texlive-en.html
-   5. file:texmf/doc/texlive/texlive-en/texlive-en.pdf
-   6. file:texmf/doc/texlive/
-   7. file:doc.html
-   8. http://tug.org/texlive/doc.html
-   9. http://tug.org/texlive/doc/install-tl.html
-  10. http://tug.org/texlive/tlmgr.html
-  11. http://tug.org/begin.html
-  12. http://tug.org/interest.html
-  13. http://tug.org/ctan.html
-  14. http://tug.org/usergroups.html
-  15. http://tug.org/texlive/
+   3. file:texlive-doc
+   4. file:texmf/doc/texlive/texlive-en
+   5. file:texmf/doc/texlive/texlive-en/texlive-en.html
+   6. file:texmf/doc/texlive/texlive-en/texlive-en.pdf
+   7. file:texmf/doc/texlive/
+   8. file:doc.html
+   9. http://tug.org/texlive/doc.html
+  10. http://tug.org/texlive/doc/install-tl.html
+  11. http://tug.org/texlive/tlmgr.html
+  12. http://tug.org/begin.html
+  13. http://tug.org/interest.html
+  14. http://tug.org/ctan.html
+  15. http://tug.org/usergroups.html
+  16. http://tug.org/texlive/
