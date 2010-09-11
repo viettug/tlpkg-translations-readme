@@ -1,5 +1,5 @@
 
-Willkommen zu TeX Live 2009
+Willkommen zu TeX Live
 
    Die TeX Live-Distribution bietet Ihnen ein komplettes TeX-System für
    eine Vielzahl Plattformen, wie GNU/Linux, Unix-, Macintosh-, und
@@ -24,7 +24,7 @@ Willkommen zu TeX Live 2009
    Informationen.
 
    In der vollständigen Distribution (z. B. auf der DVD) finden Sie die
-   deutsche Anleitung im Verzeichnisbaum [3]texmf/doc/texlive/texlive-en
+   deutsche Anleitung im Verzeichnisbaum [3]texmf/doc/texlive/texlive-de
    sowohl im [4]HTML- als auch im [5]PDF-Format. Die englische Version
    und Übersetzungen in andere Sprachen finden Sie in weiteren
    Unterverzeichnissen von [6]texmf/doc/texlive/.
@@ -64,7 +64,9 @@ Willkommen zu TeX Live 2009
           im Textmodus durch, erlaubt aber im Gegensatz zum wizard mode
           eine individuelle Auswahl der zu installierenden Pakete. Dieser
           Installationsmodus wird mit install-tl --gui=perltk oder
-          install-tl-advanced.bat unter Windows gestartet.
+          install-tl-advanced.bat unter Windows gestartet. Dieser Modus
+          ist besonders hilfreich für Windows-Benutzer, die nicht die
+          Default-Einstellungen nutzen wollen.
 
    Nach erfolgter Installation können Sie Updates und weitere
    Konfigurationen mit Hilfe des Skripts tlmgr (TeX Live Package Manager)
@@ -93,7 +95,8 @@ Willkommen zu TeX Live 2009
        dem zentralen Umschlagplatz für alle TeX betreffenden Dinge.
      * [16]http://tug.org/usergroups.html - weltweite Liste aller TeX
        Benutzergruppen, mit Kontaktinformation. Wir empfehlen wärmstens,
-       einer TeX-Benutzergruppe Ihrer Wahl beizutreten.
+       einer TeX-Benutzergruppe Ihrer Wahl beizutreten, um TeX Live und
+       andere TeX-Aktivitäten zu unterstützen.
 
     Happy TeXing! - Viel Spaß mit TeX!
      _________________________________________________________________
