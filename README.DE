@@ -4,7 +4,7 @@ Willkommen zu TeX Live
    Die TeX Live-Distribution bietet Ihnen ein komplettes TeX-System für
    eine Vielzahl Plattformen, wie GNU/Linux, Unix-, Macintosh-, und
    Microsoft Windows. Enthalten sind Programme zum Editieren, zum Setzen,
-   zur Bildschirmvorschau, und zum Ausdruck von TeX-Dokumenten in vielen
+   zur Bildschirmvorschau und zum Ausdruck von TeX-Dokumenten in vielen
    Sprachen, sowie eine große Sammlung von TeX-Makros und
    Fontbibliotheken.
 
@@ -60,10 +60,10 @@ Willkommen zu TeX Live
           in einem Eingabeaufforderungs-Fenster).
 
    perltk
-          führt die Installtion mittels einer grafischen Oberfläche statt
-          im Textmodus durch, erlaubt aber im Gegensatz zum wizard mode
-          eine individuelle Auswahl der zu installierenden Pakete. Dieser
-          Installationsmodus wird mit install-tl --gui=perltk oder
+          führt die Installation mittels einer grafischen Oberfläche
+          statt im Textmodus durch, erlaubt aber im Gegensatz zum wizard
+          mode eine individuelle Auswahl der zu installierenden Pakete.
+          Dieser Installationsmodus wird mit install-tl --gui=perltk oder
           install-tl-advanced.bat unter Windows gestartet. Dieser Modus
           ist besonders hilfreich für Windows-Benutzer, die nicht die
           Default-Einstellungen nutzen wollen.
