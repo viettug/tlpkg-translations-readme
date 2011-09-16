@@ -88,14 +88,14 @@ Welcome to TeX Live
 
 References
 
-   1. file:LICENSE.TL
-   2. file:LICENSE.CTAN
-   3. file:texlive-doc
-   4. file:texmf/doc/texlive/texlive-en
-   5. file:texmf/doc/texlive/texlive-en/texlive-en.html
-   6. file:texmf/doc/texlive/texlive-en/texlive-en.pdf
-   7. file:texmf/doc/texlive/
-   8. file:doc.html
+   1. file:tlua/LICENSE.TL
+   2. file:tlua/LICENSE.CTAN
+   3. file:tlua/texlive-doc
+   4. file:tlua/texmf/doc/texlive/texlive-en
+   5. file:tlua/texmf/doc/texlive/texlive-en/texlive-en.html
+   6. file:tlua/texmf/doc/texlive/texlive-en/texlive-en.pdf
+   7. file:tlua/texmf/doc/texlive/
+   8. file:tlua/doc.html
    9. http://tug.org/texlive/doc.html
   10. http://tug.org/texlive/doc/install-tl.html
   11. http://tug.org/texlive/tlmgr.html
