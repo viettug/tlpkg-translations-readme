@@ -18,9 +18,9 @@ TeX Live へようこそ
    導入を開始する前に、TeX Live の手引きを読まれることを強くお勧めします。 そ
    こには、手順を追った解説や、最上位ディレクトリの説明が書かれています。
 
-   手引きの日本語版は、（DVD などの）完全頒布版の [3]texmf/doc/texlive/ 
+   手引きの日本語版は、（DVD などの）完全頒布版の [3]texmf-dist/doc/texlive/ 
    階層にあり、[4]HTML と [5]PDF の両方が あります。他の言語への翻訳も 
-   [6]texmf/doc/texlive にあります。
+   [6]texmf-dist/doc/texlive にあります。
 
    同梱パッケージや同梱プログラムに関して、[7]利用可能な PDF・HTML 版説明書へ
    のリンク一覧も提供しています。
@@ -80,10 +80,10 @@ TeX Live へようこそ
 
    1. file:LICENSE.TL
    2. file:LICENSE.CTAN
-   3. file:texmf/doc/texlive/texlive-ja
-   4. file:texmf/doc/texlive/texlive-ja/texlive-ja.html
-   5. file:texmf/doc/texlive/texlive-ja/texlive-ja.pdf
-   6. file:texmf/doc/texlive/
+   3. file:texmf-dist/doc/texlive/texlive-ja
+   4. file:texmf-dist/doc/texlive/texlive-ja/texlive-ja.html
+   5. file:texmf-dist/doc/texlive/texlive-ja/texlive-ja.pdf
+   6. file:texmf-dist/doc/texlive/
    7. file:doc.html
    8. http://tug.org/texlive/doc.html
    9. http://tug.org/texlive/doc/install-tl.html
