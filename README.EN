@@ -23,9 +23,9 @@ Welcome to TeX Live
    the translations are in the [3]texlive-doc subdirectory.
 
    After installation, English versions of the Guide are in the
-   [4]texmf/doc/texlive/ hierarchy, in both [5]html and [6]pdf formats.
-   Translations to other languages are also available under
-   [7]texmf/doc/texlive.
+   [4]texmf-dist/doc/texlive/ hierarchy, in both [5]html and [6]pdf
+   formats. Translations to other languages are also available under
+   [7]texmf-dist/doc/texlive.
 
    We also provide a list of [8]links to the available PDF and HTML
    documentation for the included packages and programs.
@@ -88,14 +88,14 @@ Welcome to TeX Live
 
 References
 
-   1. file:tlua/LICENSE.TL
-   2. file:tlua/LICENSE.CTAN
-   3. file:tlua/texlive-doc
-   4. file:tlua/texmf/doc/texlive/texlive-en
-   5. file:tlua/texmf/doc/texlive/texlive-en/texlive-en.html
-   6. file:tlua/texmf/doc/texlive/texlive-en/texlive-en.pdf
-   7. file:tlua/texmf/doc/texlive/
-   8. file:tlua/doc.html
+   1. file:../LICENSE.TL
+   2. file:../LICENSE.CTAN
+   3. file:../../texlive-doc
+   4. file:../texmf-dist/doc/texlive/texlive-en
+   5. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.html
+   6. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
+   7. file:../texmf-dist/doc/texlive/
+   8. file:../doc.html
    9. http://tug.org/texlive/doc.html
   10. http://tug.org/texlive/doc/install-tl.html
   11. http://tug.org/texlive/tlmgr.html
