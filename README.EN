@@ -88,14 +88,14 @@ Welcome to TeX Live
 
 References
 
-   1. file:../LICENSE.TL
-   2. file:../LICENSE.CTAN
-   3. file:../../texlive-doc
-   4. file:../texmf-dist/doc/texlive/texlive-en
-   5. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.html
-   6. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
-   7. file:../texmf-dist/doc/texlive/
-   8. file:../doc.html
+   1. file://localhost/tmp/tlua/LICENSE.TL
+   2. file://localhost/tmp/tlua/LICENSE.CTAN
+   3. file://localhost/tmp/texlive-doc
+   4. file://localhost/tmp/tlua/texmf-dist/doc/texlive/texlive-en
+   5. file://localhost/tmp/tlua/texmf-dist/doc/texlive/texlive-en/texlive-en.html
+   6. file://localhost/tmp/tlua/texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
+   7. file://localhost/tmp/tlua/texmf-dist/doc/texlive/
+   8. file://localhost/tmp/tlua/doc.html
    9. http://tug.org/texlive/doc.html
   10. http://tug.org/texlive/doc/install-tl.html
   11. http://tug.org/texlive/tlmgr.html
