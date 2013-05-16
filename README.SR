@@ -23,12 +23,12 @@
    [3]texlive-doc.
 
    Након инсталације, енглеска верзија ће бити унутар директоријума
-   [4]texmf/doc/texlive/, доступна и у [5]HTML и у [6]PDF формату.
+   [4]texmf-dist/doc/texlive/, доступна и у [5]HTML и у [6]PDF формату.
 
    Приручник је преведен на српски језик и исто тако је доступан у [7]HTML
    и [8]PDF формату (превод се налази у оквиру пакета texlive-sr и свакако
    ће бити инсталиран ако одаберете пуну инсталацију). У директоријуму
-   [9]texmf/doc/texlive налазе се и остали преводи.
+   [9]texmf-dist/doc/texlive налазе се и остали преводи.
 
    Такође, припремили смо и [10]списак линкова ка расположивој PDF и HTML
    документацији за прикључене пакете и програме.
@@ -100,16 +100,16 @@
 
 Фусноте
 
-   1. file:LICENSE.TL
-   2. file:LICENSE.CTAN
-   3. file:texlive-doc
-   4. file:texmf/doc/texlive/texlive-en
-   5. file:texmf/doc/texlive/texlive-en/texlive-en.html
-   6. file:texmf/doc/texlive/texlive-en/texlive-en.pdf
-   7. file:texmf/doc/texlive/texlive-sr/texlive-sr.html
-   8. file:texmf/doc/texlive/texlive-sr/texlive-sr.pdf
-   9. file:texmf/doc/texlive/
-  10. file:doc.html
+   1. file:../LICENSE.TL
+   2. file:../LICENSE.CTAN
+   3. file:../texlive-doc/
+   4. file:../texmf-dist/doc/texlive/texlive-en
+   5. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.html
+   6. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
+   7. file:../texmf-dist/doc/texlive/texlive-sr/texlive-sr.html
+   8. file:../texmf-dist/doc/texlive/texlive-sr/texlive-sr.pdf
+   9. file:../texmf-dist/doc/texlive/
+  10. file:../doc.html
   11. http://tug.org/texlive/doc.html
   12. http://tug.org/texlive/doc/install-tl.html
   13. http://tug.org/texlive/tlmgr.html
