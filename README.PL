@@ -22,19 +22,19 @@ Zawiera on informacje niezbêdne do korzystania z dystrybucji i prawid³owej
 instalacji systemu TeX. Gdy instalujemy z p³ytki DVD, wersje Przewodnika 
 w kilku jêzykach dostêpne s± w formatach HTML i PDF w podkatalogach 
 katalogu [3]texlive-doc. Po zainstalowaniu Przewodnik i jego t³umaczenia
-znajdziemy w podkatalogach [4]texmf/doc/texlive.
+znajdziemy w podkatalogach [4]texmf-dist/doc/texlive.
 
 Uwaga: poni¿sze odno¶niki nie dzia³aj±, gdy instalujemy TeX Live 
 z internetu. W tym wypadku nale¿y siêgn±æ do dokumentacji udostêpnionej 
 w sieci: [5]http://tug.org/texlive/doc.html
 
 Przewodnik po TeX Live (polskie t³umaczenie): 
-  [6]PDF:  texmf/doc/texlive/texlive-pl/texlive-pl.pdf 
-  [7]HTML: texmf/doc/texlive/texlive-pl/texlive-pl.html 
+  [6]PDF:  texmf-dist/doc/texlive/texlive-pl/texlive-pl.pdf 
+  [7]HTML: texmf-dist/doc/texlive/texlive-pl/texlive-pl.html 
 
 The TeX Live Guide (w jêzyku angielskim): 
-  [8]PDF:  texmf/doc/texlive/texlive-en/texlive-en.pdf 
-  [9]HTML: texmf/doc/texlive/texlive-en/texlive-en.html 
+  [8]PDF:  texmf-dist/doc/texlive/texlive-en/texlive-en.pdf 
+  [9]HTML: texmf-dist/doc/texlive/texlive-en/texlive-en.html 
 
 Lista najwa¿niejszych zmian znajduje siê na koñcu
 dokumentacji w rozdziale [10],,Historia. Wydanie obecne''.
@@ -71,7 +71,7 @@ ich uprzedniego generowania. Zazwyczaj s± to pliki w formatach HTML
 i/lub PDF. 
 
 [13]doc.html Katalog dostêpnych w instalacji dokumentacji w formatach PDF i HTML 
-[14]texmf/doc/generic/FAQ-en/newfaq.pdf  TeX Frequently Asked Questions 
+[14]texmf-dist/doc/generic/FAQ-en/newfaq.pdf  TeX Frequently Asked Questions 
                                      (odpowiedzi na czêsto zadawane pytania)
 
 Wybrane strony, dostêpne w sieci: 
@@ -121,17 +121,17 @@ Odno¶niki
    1. file:LICENSE.TL
    2. file:LICENSE.CTAN
    3. file:texlive-doc
-   4. texmf/doc/texlive
+   4. texmf-dist/doc/texlive
    5. http://tug.org/texlive/doc.html
-   6. file:texmf/doc/texlive/texlive-pl/texlive-pl.pdf 
-   7. file:texmf/doc/texlive/texlive-pl/texlive-pl.html 
-   8. file:texmf/doc/texlive/texlive-en/texlive-en.pdf
-   9. file:texmf/doc/texlive/texlive-en/texlive-en.html
-  10. file:texmf/doc/texlive/texlive-pl/texlive-pl.html
+   6. file:texmf-dist/doc/texlive/texlive-pl/texlive-pl.pdf 
+   7. file:texmf-dist/doc/texlive/texlive-pl/texlive-pl.html 
+   8. file:texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
+   9. file:texmf-dist/doc/texlive/texlive-en/texlive-en.html
+  10. file:texmf-dist/doc/texlive/texlive-pl/texlive-pl.html
   11. http://tug.org/texlive/doc/install-tl.html
   12. http://tug.org/texlive/tlmgr.html
   13. file:doc.html
-  14. file:texmf/doc/generic/FAQ-en/newfaq.pdf
+  14. file:texmf-dist/doc/generic/FAQ-en/newfaq.pdf
   15. http://tug.org/begin.html
   16. http://tug.org/interest.html
   17. http://tug.org/ctan.html

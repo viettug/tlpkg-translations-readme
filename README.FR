@@ -25,9 +25,9 @@ Bienvenue dans TeX Live
    sous-répertoire [3]texlive-doc.
 
    Après l'installation, la version française du guide se trouve dans le
-   répetoire [4]texmf/doc/texlive/texlive-fr, aux formats [5]html et
+   répetoire [4]texmf-dist/doc/texlive/texlive-fr, aux formats [5]html et
    [6]pdf. Des traductions dans d'autres langues sont également
-   disponibles dans l'arborescence [7]texmf/doc/texlive.
+   disponibles dans l'arborescence [7]texmf-dist/doc/texlive.
 
    Une liste de [8]liens vers la documentation des programmes et paquets
    de macros inclus (en format PDF et HTML) est disponible.
@@ -103,10 +103,10 @@ RÃ©fÃ©rences
    1. file:LICENSE.TL
    2. file:LICENSE.CTAN
    3. file:texlive-doc
-   4. file:texmf/doc/texlive/texlive-fr
-   5. file:texmf/doc/texlive/texlive-fr/texlive-fr.html
-   6. file:texmf/doc/texlive/texlive-fr/texlive-fr.pdf
-   7. file:texmf/doc/texlive
+   4. file:texmf-dist/doc/texlive/texlive-fr
+   5. file:texmf-dist/doc/texlive/texlive-fr/texlive-fr.html
+   6. file:texmf-dist/doc/texlive/texlive-fr/texlive-fr.pdf
+   7. file:texmf-dist/doc/texlive
    8. file:doc.html
    9. http://tug.org/texlive/doc.html
   10. http://tug.org/texlive/doc/install-tl.html

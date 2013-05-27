@@ -24,10 +24,10 @@ Willkommen zu TeX Live
    Informationen.
 
    In der vollständigen Distribution (z. B. auf der DVD) finden Sie die
-   deutsche Anleitung im Verzeichnisbaum [3]texmf/doc/texlive/texlive-de
+   deutsche Anleitung im Verzeichnisbaum [3]texmf-dist/doc/texlive/texlive-de
    sowohl im [4]HTML- als auch im [5]PDF-Format. Die englische Version
    und Übersetzungen in andere Sprachen finden Sie in weiteren
-   Unterverzeichnissen von [6]texmf/doc/texlive/.
+   Unterverzeichnissen von [6]texmf-dist/doc/texlive/.
 
    Zu den enthaltenen Paketen und Programmen gibt es auch eine [7]Liste
    aller verfügbaren PDF- und HTML-Dokumentation.
@@ -107,10 +107,10 @@ References
 
    1. file:LICENSE.TL
    2. file:LICENSE.CTAN
-   3. file:texmf/doc/texlive/texlive-de
-   4. file:texmf/doc/texlive/texlive-de/texlive-de.html
-   5. file:texmf/doc/texlive/texlive-de/texlive-de.pdf
-   6. file:texmf/doc/texlive/
+   3. file:texmf-dist/doc/texlive/texlive-de
+   4. file:texmf-dist/doc/texlive/texlive-de/texlive-de.html
+   5. file:texmf-dist/doc/texlive/texlive-de/texlive-de.pdf
+   6. file:texmf-dist/doc/texlive/
    7. file:doc.html
    8. http://tug.org/texlive/doc.html
    9. http://tug.org/texlive/doc/install-tl.html

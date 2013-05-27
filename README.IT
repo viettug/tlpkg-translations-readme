@@ -25,9 +25,9 @@ Benvenuto a TeX Live
    [3]texlive-doc.
 
    Dopo l'installazione, la versione italiana della Guida si trova nella
-   directory [4]texmf/doc/texlive/, sia in formato [5]html che in [6]pdf.
+   directory [4]texmf-dist/doc/texlive/, sia in formato [5]html che in [6]pdf.
    Anche le traduzioni nelle altre lingue sono disponibili in
-   [7]texmf/doc/texlive.
+   [7]texmf-dist/doc/texlive.
 
    Mettiamo a disposizione anche un elenco di [8]collegamenti alla
    documentazione in PDF e HTML per i pacchetti ed i programmi inclusi.
@@ -97,10 +97,10 @@ References
    1. file:LICENSE.TL
    2. file:LICENSE.CTAN
    3. file:texlive-doc
-   4. file:texmf/doc/texlive/texlive-it
-   5. file:texmf/doc/texlive/texlive-it/texlive-it.html
-   6. file:texmf/doc/texlive/texlive-it/texlive-it.pdf
-   7. file:texmf/doc/texlive/
+   4. file:texmf-dist/doc/texlive/texlive-it
+   5. file:texmf-dist/doc/texlive/texlive-it/texlive-it.html
+   6. file:texmf-dist/doc/texlive/texlive-it/texlive-it.pdf
+   7. file:texmf-dist/doc/texlive/
    8. file:doc.html
    9. http://tug.org/texlive/doc.html
   10. http://tug.org/texlive/doc/install-tl.html

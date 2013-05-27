@@ -19,9 +19,9 @@ Kde zacat
    popis priecinkov korenoveho adresara a mnohe ine.
 
    Anglicke verzie prirucky su v~uplnej distribucii
-   (napriklad na DVD) v hierarchii [3]texmf/doc/texlive/
+   (napriklad na DVD) v hierarchii [3]texmf-dist/doc/texlive/
    v obidvoch formatoch [4]html a [5]pdf. Preklady do inych
-   jazykov su tiez k dispozicii na [6]texmf/doc/texlive.
+   jazykov su tiez k dispozicii na [6]texmf-dist/doc/texlive.
 
    Pripravili sme tiez zoznam [7]odkazov na dostupnu dokumentaciu  
    pre dodane baliky a programy vo formatoch PDF a HTML.
@@ -89,10 +89,10 @@ Odkazy
 
    1. file:LICENSE.TL
    2. file:LICENSE.CTAN
-   3. file:texmf/doc/texlive/texlive-en
-   4. file:texmf/doc/texlive/texlive-en/texlive-en.html
-   5. file:texmf/doc/texlive/texlive-en/texlive-en.pdf
-   6. file:texmf/doc/texlive/
+   3. file:texmf-dist/doc/texlive/texlive-en
+   4. file:texmf-dist/doc/texlive/texlive-en/texlive-en.html
+   5. file:texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
+   6. file:texmf-dist/doc/texlive/
    7. file:doc.html
    8. http://tug.org/texlive/doc.html
    9. http://tug.org/texlive/install-tl.html

@@ -16,8 +16,8 @@
    我们强烈建议你在读过《TeX Live 指南》后再开始安装。这份指南中包括一步步讲解
    的安装方法，对顶层目录结构的介绍，等等。
 
-   简体中文版的指南在完整发行版本 (比如 DVD) 的 [3]texmf/doc/texlive/ 目录下，
-   为 [4]pdf 格式。其他语言的版本也在 [5]texmf/doc/texlive 下提供。
+   简体中文版的指南在完整发行版本 (比如 DVD) 的 [3]texmf-dist/doc/texlive/ 目录下，
+   为 [4]pdf 格式。其他语言的版本也在 [5]texmf-dist/doc/texlive 下提供。
 
    我们还提供了一个列表，包含[6]到所有可用的 PDF 和 HTML 文档的链接，这些文档
    是给包含的软件包及程序提供的。
@@ -69,9 +69,9 @@
 
    1. LICENSE.TL
    2. LICENSE.CTAN
-   3. file:texmf/doc/texlive/texlive-zh-cn
-   4. file:texmf/doc/texlive/texlive-zh-cn/texlive-zh-cn.pdf
-   5. file:texmf/doc/texlive/
+   3. file:texmf-dist/doc/texlive/texlive-zh-cn
+   4. file:texmf-dist/doc/texlive/texlive-zh-cn/texlive-zh-cn.pdf
+   5. file:texmf-dist/doc/texlive/
    6. file:doc.html
    7. http://tug.org/texlive/doc.html
    8. http://tug.org/texlive/doc/install-tl.html

@@ -16,8 +16,8 @@ Vítejte v TeX Live
    adresářů a další informace.
 
    Anglické verze průvodců jsou umístěny v úplné distribuci (např. na DVD)
-   v hierarchii [3]texmf/doc/texlive ve formátech [4]html a [5]pdf. Překlady
-   do dalších jazyků jsou také dostupné v podstromu [6]texmf/doc/texlive.
+   v hierarchii [3]texmf-dist/doc/texlive ve formátech [4]html a [5]pdf. Překlady
+   do dalších jazyků jsou také dostupné v podstromu [6]texmf-dist/doc/texlive.
 
    Nabízíme také [7]seznam odkazů na dostupnou dokumentaci k zahrnutým
    balíkům a programům, opět ve formátech HTML a PDF.
@@ -81,10 +81,10 @@ Odkazy
 
    1. file:LICENSE.TL
    2. file:LICENSE.CTAN
-   3. file:texmf/doc/texlive/texlive-en
-   4. file:texmf/doc/texlive/texlive-en/texlive-en.html
-   5. file:texmf/doc/texlive/texlive-en/texlive-en.pdf
-   6. file:texmf/doc/texlive/
+   3. file:texmf-dist/doc/texlive/texlive-en
+   4. file:texmf-dist/doc/texlive/texlive-en/texlive-en.html
+   5. file:texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
+   6. file:texmf-dist/doc/texlive/
    7. file:doc.html
    8. http://tug.org/texlive/doc.html
    9. http://tug.org/texlive/install-tl.html
