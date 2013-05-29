@@ -1,4 +1,5 @@
 Vítejte v TeX Live
+
    Softwarová distribuce TeX Live nabízí kompletní TeXový systém pro řadu
    platforem - GNU a UNIX, Macintosh, Windows a další. Zahrnuje programy
    pro editování, sazbu, zobrazení a tisk TeXových dokumentů v mnoha
@@ -11,26 +12,32 @@ Vítejte v TeX Live
    souborech [1]LICENSE.TL a [2]LICENSE.CTAN.
   
   Kde začít
+
    Důrazně doporučujeme, abyste si ještě před instalací přečetli průvodce
    TeX Live. Průvodce obsahuje instrukce "krok za krokem", popis hlavních
    adresářů a další informace.
 
-   Anglické verze průvodců jsou umístěny v úplné distribuci (např. na DVD)
-   v hierarchii [3]texmf-dist/doc/texlive ve formátech [4]html a [5]pdf. Překlady
-   do dalších jazyků jsou také dostupné v podstromu [6]texmf-dist/doc/texlive.
+   Pokud instalujete z DVD, anglické i další jazykové verze instalačních
+   průvodců jsou umístěny v podadresáři [3]texlive-doc.
+ 
+   Po instalaci, anglické verze Průvodce instalací najdete v adresářové 
+   struktuře [4]texmf-dist/doc/texlive ve formátech [5]html i [6]pdf. 
+   Překlady do dalších jazyků jsou také dostupné v podstromu 
+   [7]texmf-dist/doc/texlive.
 
-   Nabízíme také [7]seznam odkazů na dostupnou dokumentaci k zahrnutým
+   Nabízíme také [8]seznam odkazů na dostupnou dokumentaci k zahrnutým
    balíkům a programům, opět ve formátech HTML a PDF.
 
    Pokud instalujete z internetu, výše zmíněné odkazy vám nebudou fungovat.
-   V tom případě si ale můžete [8]dokumentaci TeX Live prohlížet
+   V tom případě si ale můžete [9]dokumentaci TeX Live prohlížet
    na internetu.
 
    Seznam nejdůležitějších změn v letošním vydání najdete v oddílu
    Historie verzí na konci dokumentace.
 
   Instalace
-   Instalační skript se jmenuje install-tl (install-tl.bat pro Windows)
+
+   Instalační skript se jmenuje install-tl (install-tl.bat pod Windows)
    a můžete jej spustit ve třech režimech:
 
    průvodce (standardní spuštění pod Windows), který se vás zeptá jen na
@@ -38,7 +45,7 @@ Vítejte v TeX Live
           vyberete spuštěním install-tl --gui=wizard.
 
    text (standardní spuštění pro všechny ostatní systémy), který 
-          nabízí všechny možnosti prizpůsobení instalace. Tento režim
+          nabízí všechny možnosti přizpůsobení instalace. Tento režim
           vyberete spuštěním install-tl --gui=text.
 
    perltk, který je GUI v textovém režimu; je užitečný pro zkušené
@@ -47,11 +54,11 @@ Vítejte v TeX Live
           spuštěním install-tl --gui=perltk, nebo spuštěním souboru
           install-tl-advanced.bat pod Windows.
 
-   Dodatečné aktualizace balíků a další konfigurace se vykonává
+   Dodatečné aktualizace balíků a další konfigurace se vykonávají
    pomocí skriptu tlmgr (TeX Live Package Manager), který má také
    režimy GUI i textový.
 
-   Spuštěním programů [9]install-tl i [10]tlmgr s volbou --help
+   Spuštěním programů [10]install-tl i [11]tlmgr s volbou --help
    získáte podrobnou informaci o obou programech. (Mnohem) více
    informací získáte pomocí odkazů na dokumentaci zmíněných výše.
 
@@ -60,37 +67,40 @@ Vítejte v TeX Live
    Na závěr pro vaši informaci uvádíme několik relevantních webových
    stránek, které nejsou součástí TeX Live:
 
-     * [11]http://tug.org/begin.html - pokud jste TeXový začátečník a/nebo
+     * [12]http://tug.org/begin.html - pokud jste TeXový začátečník a/nebo
        máte zájem o úvodní materiály.
-     * [12]http://tug.org/interest.html - všeobecný seznam TeXových zdrojů
+     * [13]http://tug.org/interest.html - všeobecný seznam TeXových zdrojů
        na webu, zahrnující dokumentaci, systémy, balíky, fonty a další.
-     * [13]http://tug.org/ctan.html - jeden z přístupových bodů k archivu
+     * [14]http://tug.org/ctan.html - jeden z přístupových bodů k archivu
        Comprehensive TeX Archive Network (CTAN). Tento archiv slouží jako
-       online sklad všech věcí souvisejících s TeXem.
-     * [14]http://tug.org/usergroups.html - seznam uživatelských skupin TeXu
+       online repozitář všech věcí souvisejících s TeXem.
+     * [15]http://tug.org/usergroups.html - seznam uživatelských skupin TeXu
        z celého světa, spolu s kontaktními informacemi. Rozhodně vám
-       doporučujeme, abyste se stali členy jedné z těchto skupin; podpoříte
+       doporučujeme abyste se stali členy jedné z těchto skupin,
+       například CSTUG [16]http://www.cstug.cz. Podpoříte
        tím TeX Live a další TeXové aktivity.
 
     Příjemné TeXování!
      _________________________________________________________________
 
-   [15]Domovská stránka TeX Live.
+   [17]Domovská stránka TeX Live.
 
 Odkazy
 
-   1. file:LICENSE.TL
-   2. file:LICENSE.CTAN
-   3. file:texmf-dist/doc/texlive/texlive-en
-   4. file:texmf-dist/doc/texlive/texlive-en/texlive-en.html
-   5. file:texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
-   6. file:texmf-dist/doc/texlive/
-   7. file:doc.html
-   8. http://tug.org/texlive/doc.html
-   9. http://tug.org/texlive/install-tl.html
-  10. http://tug.org/texlive/tlmgr.html
-  11. http://tug.org/begin.html
-  12. http://tug.org/interest.html
-  13. http://tug.org/ctan.html
-  14. http://tug.org/usergroups.html
-  15. http://tug.org/texlive/
+   1. file:../LICENSE.TL
+   2. file:../LICENSE.CTAN
+   3. file:../texlive-doc
+   4. file:../texmf-dist/doc/texlive/texlive-en
+   5. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.html
+   6. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
+   7. file:../texmf-dist/doc/texlive/
+   8. file:../doc.html
+   9. http://tug.org/texlive/doc.html
+  10. http://tug.org/texlive/doc/install-tl.html
+  11. http://tug.org/texlive/tlmgr.html
+  12. http://tug.org/begin.html
+  13. http://tug.org/interest.html
+  14. http://tug.org/ctan.html
+  15. http://tug.org/usergroups.html
+  16. http://www.cstug.cz
+  17. http://tug.org/texlive/
