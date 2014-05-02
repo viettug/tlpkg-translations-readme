@@ -20,7 +20,7 @@ Welcome to TeX Live
    description of the top-level directories, and more.
 
    If you are installing from the DVD image, the Guide in English and all
-   the translations are in the [3]texlive-doc subdirectory.
+   its translations are in the [3]texlive-doc subdirectory.
 
    After installation, English versions of the Guide are in the
    [4]texmf-dist/doc/texlive/ hierarchy, in both [5]html and [6]pdf
@@ -39,7 +39,7 @@ Welcome to TeX Live
 
   Installation
 
-   The installation script is named install-tl (install-tl.bat on
+   The installation script is named install-tl (install-tl-windows.bat on
    Windows), and it has three operation modes:
 
    wizard (default on Windows) which asks a bare minimum of questions and
