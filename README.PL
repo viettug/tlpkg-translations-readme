@@ -41,7 +41,7 @@ dokumentacji w rozdziale [10],,Historia. Wydanie obecne''.
 
 Instalacja
 
-Programem instalacyjnym jest obecnie skrypt install-tl (install-tl.bat
+Programem instalacyjnym jest obecnie skrypt install-tl (install-tl-windows.bat
 dla Windows), który posiada trzy tryby pracy: 
 
 "wizard" (domy¶lny dla Windows) graficzny GUI, który ma ograniczon±
