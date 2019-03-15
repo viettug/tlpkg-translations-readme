@@ -45,28 +45,10 @@ Willkommen zu TeX Live
    (install-tl.bat unter Windows), das verschiedene Installationsarten
    zur Verfügung stellt:
 
-   Einfache Installation: wizard mode
-          (Standard für Windows) Hier wird TeX Live komplett installiert,
-          und die einzugebenden Informationen sind auf ein Minimum
-          beschränkt. Auf anderen Systemen als Windows kann dieser
-          Installationsmodus mit install-tl --gui=wizard gestartet
-          werden.
+   -gui Standard unter Windows und Mac OS X, bietet eine einfache Installation mittels
+   			grafischer Benutzeroberfläche
 
-   Text-Modus
-          (Standard auf allen Systemen außer Windows) Installation im
-          Textmodus, in dem alle Optionen für eine individuelle Anpassung
-          der Installation zur Verfügung stehen. Dieser Modus kann mit
-          install-tl --gui=text explizit gestartet werden (unter Windows
-          in einem Eingabeaufforderungs-Fenster).
-
-   perltk
-          führt die Installation mittels einer grafischen Oberfläche
-          statt im Textmodus durch, erlaubt aber im Gegensatz zum wizard
-          mode eine individuelle Auswahl der zu installierenden Pakete.
-          Dieser Installationsmodus wird mit install-tl --gui=perltk oder
-          install-tl-advanced.bat unter Windows gestartet. Dieser Modus
-          ist besonders hilfreich für Windows-Benutzer, die nicht die
-          Default-Einstellungen nutzen wollen.
+	 -no-gui Standard auf allen anderen Plattformen, bietet ein einfaches Text-Interface
 
    Nach erfolgter Installation können Sie Updates und weitere
    Konfigurationen mit Hilfe des Skripts tlmgr (TeX Live Package Manager)
@@ -112,13 +94,12 @@ References
    5. file:texmf-dist/doc/texlive/texlive-de/texlive-de.pdf
    6. file:texmf-dist/doc/texlive/
    7. file:doc.html
-   8. http://tug.org/texlive/doc.html
-   9. http://tug.org/texlive/doc/install-tl.html
-  10. http://tug.org/texlive/tlmgr.html
-  11. http://tug.org/begin.html
-  12. http://www.dante.de/
-  13. http://tug.org/interest.html
-  14. http://www.ctan.org/
-  15. http://mirror.ctan.org/
-  16. http://tug.org/usergroups.html
-  17. http://tug.org/texlive/
+   8. https://tug.org/texlive/doc.html
+   9. https://tug.org/texlive/doc/install-tl.html
+  10. https://tug.org/texlive/tlmgr.html
+  11. https://tug.org/begin.html
+  12. https://www.dante.de/
+  13. https://tug.org/interest.html
+  14. https://www.ctan.org/
+  15. https://tug.org/usergroups.html
+  16. https://tug.org/texlive/
