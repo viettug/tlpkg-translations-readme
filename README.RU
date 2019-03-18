@@ -18,11 +18,11 @@
    установки и многое другое.
 
    Если вы устанавливаете с DVD, английская версия руководства пользователя и
-   переводы на другие языки находитса в директории [3]texlive-doc.
+   переводы на другие языки находится в директории [3]texlive-doc.
 
    После установки системы английская версия руководства находится в в
    директории [4]texmf-dist/doc/texlive/texlive-en в форматах [5]html и
-   [6]pdf Переводы на другие языки находятся в директориях
+   [6]pdf. Переводы на другие языки находятся в директориях
    [7]texmf-dist/doc/texlive. В частности, русский перевод находится в
    директории [8]texmf-dist/doc/texlive/texlive-ru.
 
@@ -37,19 +37,15 @@
 
   Установка
 
-   Скрипт установки программы называется теперь install-tl
-   (install-tl-windows.bat под Windows) и работает в трех режимах:
+   Скрипт установки программы называется install-tl (install-tl-windows.bat
+   под Windows) и работает в двух режимах:
 
-   wizard (по умолчанию под Windows) задает минимум вопросов и устанавливает
-   полную систему. Может быть вызван командой install-tl --gui=wizard.
+   -gui (по умолчанию под Windows и Mac) по умолчанию проводит простую
+   установку используя графический режим, но вместе с тем предоставляет
+   дополнительные возможности по настройке.
 
-   text (по умолчанию на остальных платформах) позволяет указать, что именно
-   устанавливать. Может быть вызван командой install-tl --gui=text.
-
-   perltk Графический режим для опытных пользователей. Может быть особенно
-   полезен для тех пользователей Windows, которым нужна тонкая настройка
-   системы. Может быть вызван командой install-tl --gui=text, или, под
-   Windows, командой install-tl-advanced.bat.
+   -no-gui (по умолчанию в других случаях) даёт доступ ко всем настраиваемым
+   параметрам используя упрощённый текстовой режим.
 
    Действия после установки и настройка системы производятся программой tlmgr
    (TeX Live Package Manager), который также работает и в графическом, и в
@@ -62,37 +58,37 @@
   Ссылки
 
    Наконец, несколько интересных ссылок, не включённых в TeX Live:
-     * [13]http://tug.org/begin.html - материал для новичков
-     * [14]http://tug.org/interest.html - общий список ресурсов для TeXa,
+     * [13]tug.org/begin.html — материал для новичков
+     * [14]tug.org/interest.html — общий список ресурсов для TeXa,
        включая документацию, системы, пакеты, шрифты и многое другое.
-     * [15]http://tug.org/ctan.html - Comprehensive TeX Archive Network
+     * [15]tug.org/ctan.html — Comprehensive TeX Archive Network
        (CTAN), общий архив для всего, что имеет отношение к TeXу.
-     * [16]http://tug.org/usergroups.html - список групп пользователей TeXа,
+     * [16]tug.org/usergroups.html — список групп пользователей TeXа,
        с контактной информацией. Мы настоятельно рекомендуем вам вступить в
        одну из групп, для поддержки TeX Live и другой связанной с TeXом
        деятельности.
 
     Happy TeX'ing!
 
-     ----------------------------------------------------------------------
+     __________________________________________________________________
 
    [17]Страница TeX Live
 
 Links:
-1. LICENSE.TL
-2. LICENSE.CTAN
-3. texlive-doc
-4. texmf-dist/doc/texlive/texlive-en
-5. texmf-dist/doc/texlive/texlive-en/texlive-en.html
-6. texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
-7. texmf-dist/doc/texlive
-8. texmf-dist/doc/texlive/texlive-ru
-9. doc.html
-10. http://tug.org/texlive/doc.html
-11. http://tug.org/texlive/doc/install-tl.html
-12. http://tug.org/texlive/tlmgr.html
-13. http://tug.org/begin.html
-14. http://tug.org/interest.html
-15. http://tug.org/ctan.html
-16. http://tug.org/usergroups.html
-17. http://tug.org/tex-live/
+1. file:../LICENSE.TL
+2. file:../LICENSE.CTAN
+3. file:../texlive-doc
+4. file:../texmf-dist/doc/texlive/texlive-en
+5. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.html
+6. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
+7. file:../texmf-dist/doc/texlive
+8. file:../texmf-dist/doc/texlive/texlive-ru
+9. file:../doc.html
+10. https://tug.org/texlive/doc.html
+11. https://tug.org/texlive/doc/install-tl.html
+12. https://tug.org/texlive/tlmgr.html
+13. https://tug.org/begin.html
+14. https://tug.org/interest.html
+15. https://tug.org/ctan.html
+16. https://tug.org/usergroups.html
+17. https://tug.org/tex-live/
