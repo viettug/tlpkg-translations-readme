@@ -2,16 +2,18 @@
 
 Bienvenido a TeX Live
 
-   La distribución del programa TeX Live ofrece un sistema completo de
-   TeX para una variedad de plataformas de GNU y Unix, Macintosh,
-   Windows, entre muchas otras. La distribución abarca programas para
-   editar, composición tipográfica, pre-visualizar, e imprimir documentos
-   TeX en muchos diferentes idiomas, y una larga colección de macros de
-   TeX y librerías de fuentes. 
+   La distribución del programa TeX Live ofrece un sistema completo de TeX para
+   una variedad de plataformas de GNU y Unix, Macintosh, Windows, entre muchas
+   otras. La distribución abarca programas para editar, para la composición
+   tipográfica, para pre-visualizar, e imprimir documentos TeX en muchos
+   diferentes idiomas, y cuenta con una inmensa colección de macros de TeX y
+   librerías de fuentes. 
 
    La distribución incluye documentación extensiva acerca de TeX, al
    igual que la documentación para los programas de los paquetes que
    están incluidos. 
+
+   Para más información acerca de la licencia, por favor visite los archivos del alto-nivel [1]LICENSE.TL y [2]LICENSE.CTAN.
 
   Dónde comenzar
    
@@ -43,23 +45,16 @@ Bienvenido a TeX Live
   Instalación
 
    El programa (script) de instalación lleva el nombre install-tl
-   (install-tl-windows.bat en Windows), y tiene tres modos de
+   (en Windows se nombra install-tl-windows.bat), y tiene dos modos de
    operación:
 
-   wizard (estándar en Windows) el cual pregunta un mínimo número de
-   preguntas e instala todo posteriormente. Su instalación se puede
-   especificar explícitamente con install-tl --gui=wizard.
+   -gui (estándar en Windows y Macs) el cual realiza una instalación sencilla
+   	estándar, mediante el uso de una interfaz gráfica, pero que no obstante
+   	permite muchas opciones avanzadas si se necesitan.
 
-   text (estándar en todos los otros sistemas operativos) el cual
-   ofrece opciones para una personalización completa. Su instalación
-   se puede especificar explícitamente con install-tl --gui=text.
-
-   perltk el cual es un GUI (Interfaz Gráfica del Usuario) para texto;
-   especialmente útil para los usuarios con el conocimiento de
-   Windows, quienes no desean las instalaciones estándar. La
-   instalación puede ser especificada explícitamente mediante el
-   comando install-tl --gui=perltk, o también mediante el comando
-   install-tl-advanced.bat en Windows. 
+   -no-gui (estándar en todos los otros sistemas operativos) el cual provee
+   	todas las opciones que están disponibles, utilizando una interfaz
+   	simplificada de texto.
 
    Las actualizaciones post-instalación de los paquetes, al igual que
    otras configuraciones son llevadas a cabo con el programa (script)
