@@ -1,83 +1,82 @@
-Welcome to TeX Live
+Chào mừng bạn đến với TeX Live
 
-   The TeX Live software distribution offers a complete TeX system for a
-   variety of GNU and Unix, Macintosh, Windows and other platforms. It
-   encompasses programs for editing, typesetting, previewing and printing
-   of TeX documents in many different languages, and a large collection of
-   TeX macros and font libraries.
+   Bộ  phân phối phần mềm TeX Live giúp cài đặt hoàn chỉnh TeX và các
+   công cụ liên quan để dùng trên các máy GNU, Unix, Macintosh, Windows
+   hay các kiến trúc máy tính khác. Các phần mềm đi kèm giúp soạn thảo,
+   sắp chữ, xem thử hay in ấn tài liệu TeX, hỗ trợ nhiều ngôn ngữ và
+   tập hợp rất nhiều các thư viện phông chữ, mẫu macro.
 
-   The distribution includes extensive general documentation about TeX, as
-   well as the documentation for the included software packages.
+   Bộ phân phối TeX Live cũng gồm rất nhiều tài liệu tổng quan về TeX
+   và về các gói phần mềm đi kèm.
 
-   For licensing information, please see the top-level [1]LICENSE.TL and
-   [2]LICENSE.CTAN text files.
+   Để xem thông tin về giấy phép và bản quyền, hãy đọc trong các tập tin
+   [1]LICENSE.TL và [2]LICENSE.CTAN.
 
-  Where to start
+  Bắt đầu từ đâu
 
-   We strongly recommend that you read the TeX Live Guide before
-   undertaking the installation. It includes step-by-step instructions, a
-   description of the top-level directories, and more.
+   Chúng tôi đề nghị bạn đọc tài liệu TeX Live Guide trước khi bắt đầu
+   cài đặt. Tài liệu đó mô tả từng bước cài đặt, cấu trúc thư mục, v.v...
 
-   If you are installing from the DVD image, the Guide in English and all
-   its translations are in the [3]texlive-doc subdirectory.
+   Khi cài đặt từ DVD, bạn có thể tìm thấy hướng dẫn (TeX Live Guide)
+   phiên bản tiếng Anh và các bản dịch trong thư mục con [3]texlive-doc.
 
-   After installation, English versions of the Guide are in the
-   [4]texmf-dist/doc/texlive/ hierarchy, in both [5]html and [6]pdf
-   formats. Translations to other languages are also available under
+   Sau khi cài đặt, phiên bản tiếng Anh của tài liệu hướng dẫn được
+   chép vào thư mục [4]texmf-dist/doc/texlive/ (bao gồm hai định dạng
+   [5]html và [6]pdf). Các bản dịch của tài liệu có trong thư mục
    [7]texmf-dist/doc/texlive.
 
-   We also provide a list of [8]links to the available PDF and HTML
-   documentation for the included packages and programs.
+   Chúng tôi cũng [8]liệt kê các liên kết tới bản PDF hay HTML
+   của tài liệu của các gói và chương trình liên quan.
 
-   If you are installing from the Internet, the above links won't work. In
-   that case, you can view the [9]TeX Live documentation on the Internet.
+   Các liên kết vừa đề cập không phù hợp khi cài đặt TeX Live từ mạng.
+   Để thay thế, hãy tham khảo [9]tài liệu trên mạng.
 
-   For a list of the most important changes in this year's release, see
-   the Release history section at the end of the documentation.
+   Để xem các thay đổi quan trọng của bộ phân phối TeX Live trong năm,
+   hãy xem phần Release ở cuối của tài liệu hướng dẫn.
 
-  Installation
+  Cài đặt
 
-   The installation script is named install-tl (install-tl-windows.bat on
-   Windows), and it has two operation modes:
+   Kịch bản cài đặt có tên install-tl (hay install-tl-windows.bat cho
+   các máy Windows) có thể được dùng ở hai chế độ:
 
-   -gui (default on Windows and Macs) which does a simple installation by
-          default, using a graphical interface, but allows for advanced
-          options if desired.
+   -gui (mặc định trên Windows và Macs) với giao diện đồ họa giúp đơn giản
+          hóa quá trình cài đặt, nhưng vẫn có tùy chọn để điều chỉnh bộ
+          cài đặt cho phù hợp nhu cầu của bạn.
 
-   -no-gui (default on everything else) which provides for all available
-          options, using a simplistic text interface.
+   -no-gui (mặc định trên các hệ thống khác) hay chế độ dòng lệnh tối giản,
+          giúp điều khiển tối đa bộ cài đặt.
 
-   Post-installation package updates and other configurations are
-   performed with the tlmgr (TeX Live Package Manager) program, which
-   likewise has both GUI and text modes.
+   Một số cấu hình và gói cập nhật được thiết lập ở bước sau cùng của
+   quá trình cài đặt, nhờ chương trình tlmgr (TeX Live Package Manager,
+   hay chương trình quản lý TeX Live). Chương trình này cũng có thể
+   chạy ở chế độ đồ họa hoặc dòng lệnh.
 
-   You can give the command-line option --help to both [10]install-tl and
-   [11]tlmgr for detailed information on both programs. See the
-   documentation links above for (much) more information.
+   Chương trình [10]install-tl và [11]tlmgr đều in ra các hướng dẫn khi
+   được dùng với tùy chọn --help. Xem các liên kết đã dẫn ở trên để có
+   thêm chi tiết.
 
-  Links
+  Liên kết
 
-   Finally, a few related web pages, for your reference. These are not
-   included in TeX Live:
+   Cuối cùng, chúng tôi giới thiệu với các bạn vài trang web liên quan
+   (nhưng không phải là một phần của TeX Live):
 
-     * [12]tug.org/begin.html - if you are new to TeX and/or want
-       introductory material.
-     * [13]tug.org/interest.html - general list of TeX web resources,
-       including documentation, systems, packages, fonts, and more.
-     * [14]tug.org/ctan.html - one entry point into the Comprehensive TeX
-       Archive Network (CTAN), which is an online repository of all things
-       TeX.
-     * [15]tug.org/usergroups.html - list of TeX user groups around the
-       world, with contact information. We strongly encourage you to join
-       the user group of your choice, to support TeX Live and other TeX
-       activities.
+     * [12]tug.org/begin.html - dành cho người mới làm quen với TeX hay
+       muốn tiếp cận các tài liệu giới thiệu.
+     * [13]tug.org/interest.html - liệt kê các tài nguyên về TeX trên mạng,
+       bao gồm tài liệu, hệ thống, gói, phông chữ, và nhiều thứ khác.
+     * [14]tug.org/ctan.html - điểm bắt đầu của kho CTAN (Comprehensive TeX
+       Archive Network) gồm mọi thứ về TeX.
+     * [15]tug.org/usergroups.html - danh sách các nhóm người dùng TeX
+       trên thế giới cùng địa chỉ liên hệ. Chúng tôi khuyến khích bạn tham
+       gia các nhóm địa phương để hỗ trợ TeX Live và các hoạt động liên quan
+       đến TeX.
 
     Happy TeXing!
      __________________________________________________________________
 
-   [16]TeX Live home page.
+   [16]Trang chủ TeX Live.
 
-References
+Tham khảo
 
    1. file:../LICENSE.TL
    2. file:../LICENSE.CTAN
