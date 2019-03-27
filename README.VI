@@ -4,7 +4,7 @@ Chào mừng bạn đến với TeX Live
    công cụ liên quan để dùng trên các máy GNU, Unix, Macintosh, Windows
    hay các kiến trúc máy tính khác. Các phần mềm đi kèm giúp soạn thảo,
    sắp chữ, xem thử hay in ấn tài liệu TeX, hỗ trợ nhiều ngôn ngữ và
-   tập hợp rất nhiều các thư viện phông chữ, mẫu macro.
+   tập hợp rất nhiều thư viện phông chữ, mẫu macro.
 
    Bộ phân phối TeX Live cũng gồm rất nhiều tài liệu tổng quan về TeX
    và về các gói phần mềm đi kèm.
@@ -39,14 +39,14 @@ Chào mừng bạn đến với TeX Live
    Kịch bản cài đặt có tên install-tl (hay install-tl-windows.bat cho
    các máy Windows) có thể được dùng ở hai chế độ:
 
-   -gui (mặc định trên Windows và Macs) với giao diện đồ họa giúp đơn giản
+   -gui (mặc định trên Windows và Mac) với giao diện đồ họa giúp đơn giản
           hóa quá trình cài đặt, nhưng vẫn có tùy chọn để điều chỉnh bộ
           cài đặt cho phù hợp nhu cầu của bạn.
 
    -no-gui (mặc định trên các hệ thống khác) hay chế độ dòng lệnh tối giản,
-          giúp điều khiển tối đa bộ cài đặt.
+          giúp điều chỉnh tối đa cài đặt.
 
-   Một số cấu hình và gói cập nhật được thiết lập ở bước sau cùng của
+   Một số cấu hình và cập nhật gói được thiết lập ở bước sau cùng của
    quá trình cài đặt, nhờ chương trình tlmgr (TeX Live Package Manager,
    hay chương trình quản lý TeX Live). Chương trình này cũng có thể
    chạy ở chế độ đồ họa hoặc dòng lệnh.
