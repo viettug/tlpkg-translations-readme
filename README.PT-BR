@@ -10,7 +10,7 @@ Bem-vindo ao TeX Live
    A distribuição inclui uma documentação geral extensa sobre TeX, bem
    como a documentação para os pacotes inclusos.
 
-   Para informações sobre licença, favor ver a seção principal
+   Para informações sobre licença, favor veja a seção principal
    [1]LICENSE.TL e [2]LICENSE.CTAN destes arquivos.
 
   Por onde começar
@@ -19,8 +19,8 @@ Bem-vindo ao TeX Live
    a instalação. Ele inclui instruções passo-a-passo, uma descrição dos
    principais diretórios, além de outras informações.
 
-   Se você está instalando de uma imagem em DVD, o guia em Inglês e todas
-   suas traduções estão no sub-diretório [3]texlive-doc.
+   Se você está instalando a partir de uma imagem em DVD, o guia em Inglês e todas
+   suas traduções estão no subdiretório [3]texlive-doc.
 
    Após a instalação, versões em Inglês do Guia estão em
    [4]texmf-dist/doc/texlive/, em ambos os formatos [5]html e [6]pdf.
@@ -31,7 +31,7 @@ Bem-vindo ao TeX Live
    disponíveis em PDF e HTML para os pacotes e programas inclusos.
 
    Se você está instalando a partir da Internet, os links acima não
-   funcionarão. Neste caso, você pode ver a [9]documentação TeX Live na
+   funcionarão. Neste caso, você pode consultar a [9]documentação TeX Live na
    Internet.
 
    Para uma lista das mudanças mais importantes no lançamento deste ano,
@@ -40,34 +40,26 @@ Bem-vindo ao TeX Live
   Instalação
 
    O script de instalação chama-se install-tl (install-tl-windows.bat no
-   Windows), e possui três modos de operação:
+   Windows), e possui dois modos de operação:
 
-   wizard (padrão no Windows) que apresenta o mínimo de questões e
-          instala tudo. Pode ser especificado explicitamente com
-          install-tl --gui=wizard.
+   -gui (padrão no Windows e no Mac) que dispara uma instalação
+        simplificada por padrão, mas também permite opções avançadas.
 
-   text (padrão nos demais) que possui opções completas de
-          personalização. Pode ser especificado explicitamente com
-          install-tl --gui=text.
-
-   perltk que é uma GUI para text; especialmente útil para usuários que
-          conhecem Windows e que não querem os padrões. Pode ser
-          especificado explicitamente com install-tl --gui=perltk, ou
-          executando install-tl-advanced.bat no Windows.
+   -no-gui (padrão nos demais) que possui todas as opções disponíveis,
+           usando uma interface textual simplificada.
 
    Atualização de pacotes após a instalação e outras configurações são
    realizadas com o script tlmgr (TeX Live Package Manager), que também
    possui ambos os modos GUI e text.
 
-   Você pode usar a linha de comando com a opção --help para ambos
-   [10]install-tl e [11]tlmgr para informações detalhadas sobre ambos os
-   programas. Veja a documentação nos links acima para (muito) mais
-   informações.
+   Você pode usar a linha de comando com a opção --help para [10]install-tl
+   e [11]tlmgr para informações detalhadas sobre ambos os programas.
+   Veja a documentação nos links acima para (muito) mais informações.
 
   Links
 
-   Finalmente, algumas páginas web relacionadas, para consulta. Estão não
-   estão incluídas no TeX Live:
+   Finalmente, algumas páginas web relacionadas, para consulta. Estas páginas
+   não estão incluídas no TeX Live:
 
      * [12]http://tug.org/begin.html - se você é novato no TeX e/ou
        deseja material introdutório.
