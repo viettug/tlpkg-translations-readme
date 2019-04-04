@@ -43,27 +43,20 @@
   Инсталација
 
    Инсталациона скрипта се зове install-tl (install-tl-windows.bat на
-   Windows-у), и има три радна режима:
+   Windows-у), и има два радна режима:
 
-   wizard
-          (подразумевани режим на Windows-у) у коме се поставља најмањи
-          могући број питања и инсталира све. Овај режим се може изричито
-          изабрати помоћу install-tl --gui=wizard.
+   -gui
+          (подразумевани режим на Windows-у) у коме се просто обавља
+          инсталација са подразумеваним параметрима у графичком окружењу;
+          напредни корисници могу да измене параметре ако желе.
 
-   text
+   -no-gui
           (подразумеван на свим другим системима) у коме су Вам доступне
-          све могућности подешавања. Овај режим рада се може изричито
-          изабрати помоћу install-tl --gui=text.
-
-   perltk
-          који представља графички интерфејс за текстуални радни режим
-          (text); нарочито је користан за искусне Windows кориснике који
-          не желе да употребе подразумеване параметре. Овај радни режим се
-          може изричито изабрати помоћу install-tl --gui=perltk или помоћу
-          install-tl-advanced.bat на Windows-у.
+          све могућности подешавања; овај режим ради у текстуалном
+          окружењу.
 
    Надоградње пакета после инсталације и друга подешавања обављају се
-   помоћу скрипте tlmgr (TeX Live Package Manager), која исто тако
+   помоћу програма tlmgr (TeX Live Package Manager), која исто тако
    подржава и графички и текстуални режим рада.
 
    Скрипте [12]install-tl и [13]tlmgr се могу позвати са параметром --help
@@ -80,16 +73,15 @@
 
    На крају, ради орјентације наводимо неколико корисних веб-страница. Оне
    нису укључене у TeX Live:
-     * [14]http://tug.org/begin.html - ако сте нови у TeX-у и/или Вам
-       треба уводни материјал.
-     * [15]http://tug.org/interest.html - општи списак материјала о TeX-у
-       на Интернету, који укључује документацију, системе, пакете, фонтове
-       итд.
-     * [16]http://tug.org/ctan.html - полазна тачка у Comprehensive TeX
-       Archive Network (CTAN), Интернет-репозиторијум свих ствари које се
-       тичу TeX-a.
-     * [17]http://tug.org/usergroups.html - списак група корисника TeX-а
-       широм света са подацима за контакт. Најтоплије препоручујемо да се
+     * [14]tug.org/begin.html - ако сте нови у TeX-у и/или Вам треба
+       уводни материјал.
+     * [15]interest.html - општи списак материјала о TeX-у на Интернету,
+       који укључује документацију, системе, пакете, фонтове итд.
+     * [16]tug.org/ctan.html - полазна тачка у Comprehensive TeX Archive
+       Network (CTAN), Интернет-репозиторијум свих ствари које се тичу
+       TeX-a.
+     * [17]tug.org/usergroups.html - списак група корисника TeX-а широм
+       света са подацима за контакт. Најтоплије препоручујемо да се
        прикључите корисничкој групи по избору, како бисте подржали TeX
        Live и друге активности везане за TeX.
 
@@ -110,11 +102,11 @@
    8. file:../texmf-dist/doc/texlive/texlive-sr/texlive-sr.pdf
    9. file:../texmf-dist/doc/texlive/
   10. file:../doc.html
-  11. http://tug.org/texlive/doc.html
-  12. http://tug.org/texlive/doc/install-tl.html
-  13. http://tug.org/texlive/tlmgr.html
-  14. http://tug.org/begin.html
-  15. http://tug.org/interest.html
-  16. http://tug.org/ctan.html
-  17. http://tug.org/usergroups.html
-  18. http://tug.org/texlive/
+  11. https://tug.org/texlive/doc.html
+  12. https://tug.org/texlive/doc/install-tl.html
+  13. https://tug.org/texlive/tlmgr.html
+  14. https://tug.org/begin.html
+  15. https://tug.org/interest.html
+  16. https://tug.org/ctan.html
+  17. https://tug.org/usergroups.html
+  18. https://tug.org/texlive/
