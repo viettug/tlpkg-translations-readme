@@ -38,21 +38,13 @@ Vítejte v TeX Live
   Instalace
 
    Instalační skript se jmenuje install-tl (install-tl.bat pod Windows)
-   a můžete jej spustit ve třech režimech:
+   a můžete jej spustit ve dvou režimech:
 
-   průvodce (standardní spuštění pod Windows), který se vás zeptá jen na
-          nutné minimum otázek a instalaci pak provede sám. Tento režim
-          vyberete spuštěním install-tl --gui=wizard.
+   -gui (standardní spuštění pod Windows a MacOs), který se vás zeptá jen na
+          nutné minimum otázek a instalaci pak provede sám. 
 
-   text (standardní spuštění pro všechny ostatní systémy), který 
-          nabízí všechny možnosti přizpůsobení instalace. Tento režim
-          vyberete spuštěním install-tl --gui=text.
-
-   perltk, který je GUI v textovém režimu; je užitečný pro zkušené
-          uživatele Windows, kteří nechtějí použít standardní
-          nastavení. Instalaci v tomto režimu je možné zvolit buď
-          spuštěním install-tl --gui=perltk, nebo spuštěním souboru
-          install-tl-advanced.bat pod Windows.
+   -no-gui (standardní spuštění pro všechny ostatní systémy), který 
+          nabízí všechny možnosti přizpůsobení instalace.
 
    Dodatečné aktualizace balíků a další konfigurace se vykonávají
    pomocí skriptu tlmgr (TeX Live Package Manager), který má také
@@ -77,8 +69,8 @@ Vítejte v TeX Live
      * [15]http://tug.org/usergroups.html - seznam uživatelských skupin TeXu
        z celého světa, spolu s kontaktními informacemi. Rozhodně vám
        doporučujeme abyste se stali členy jedné z těchto skupin,
-       například CSTUG [16]http://www.cstug.cz. Podpoříte
-       tím TeX Live a další TeXové aktivity.
+       například CSTUG 
+     * [16]http://www.cstug.cz. Podpoříte tím TeX Live a další TeXové aktivity.
 
     Příjemné TeXování!
      _________________________________________________________________

@@ -1,104 +1,96 @@
-TeX Live Vas vita
+TeX Live vas vita
+  
+   Distribucia softveru TeX Live ponuka uplny system TeX pre rozne platformy 
+   GNU a Unix, Macintosh, Windows a dalsie. Zahrna programy na upravu, sadzbu, 
+   nahlad a tlac dokumentov TeXu v mnohych jazykoch a rozsiahlu zbierku makier
+   TeXu a kniznice fontov.
 
-   Distribucia softveru TeX Live ponuka uplny system TeX pre systemy
-   GNU a Unix, Macintosh, Windows a ine platformy. Zahrna programy na 
-   editaciu, sadzbu, zobrazovanie a tlac TeXovskych dokumentov 
-   v mnozstve roznych jazykov a rozsiahly subor TeXovskych makier 
-   a kniznic fontov.
-
-   Distribucia zahrna rozsiahlu vseobecnu dokumentaciu o systeme TeX,
-   ako aj dokumentaciu k pripojenym softverovym balikom.
-
-   Informaciu o licencii si precitajte, prosim, v korenovom adresari 
-   v textovych suboroch [1]LICENSE.TL a [2]LICENSE.CTAN.
-
-Kde zacat
-
-   Rozhodne Vam odporucame precitat si prirucku TeX Live predtym
-   ako zacnete s instalaciou. Obsahuje postupne navody, 
-   popis priecinkov korenoveho adresara a mnohe ine.
-
-   Anglicke verzie prirucky su v~uplnej distribucii
-   (napriklad na DVD) v hierarchii [3]texmf-dist/doc/texlive/
-   v obidvoch formatoch [4]html a [5]pdf. Preklady do inych
-   jazykov su tiez k dispozicii na [6]texmf-dist/doc/texlive.
-
-   Pripravili sme tiez zoznam [7]odkazov na dostupnu dokumentaciu  
-   pre dodane baliky a programy vo formatoch PDF a HTML.
-
-   Ak instalujete z Internetu, vyssie uvedene odkazy budu nefunkcne.
-   V tom pripade si mozete pozriet [8]dokumentaciu TeX Live na
-   Internete.
+   Distribucia obsahuje rozsiahlu vseobecnu dokumentaciu o TeXu, rovnako
+   ako aj dokumentaciu k prilozenym softverovym balikom.
+ 
+   Informacie o licenciach najdete v textovych suboroch na najvyssej urovni 
+   LICENSE.TL [1] a LICENSE.CTAN [2].
 
 
-   Zoznam najdolezitejsich zmien v tohtorocnej release najdete
-   v oddieli Historia uvolnenych verzii na konci dokumentacie.
+  Kde zacat
 
-Instalacia
+   Dorazne vam odporucame, aby ste si pred instalaciou precitali Prirucku TeX Live.
+   Obsahuje pokyny krok za krokom, popis adresarov najvyssej urovne a dalsie.
 
-   Instalacny skript sa nazyva install-tl (install-tl.bat pre
-   Windows) a ma tri operacne rezimy:
-   
-   sprievodcovsky (predvoleny pod Windows), ktory zada nutne
-          minimum otazok a vsetko nainstaluje. Moze byt 
-          zvoleny explicitne prikazom: install-tl --gui=wizard.
+   Ak instalujete z obrazu DVD, anglicka prirucka a jej vsetky preklady 
+   su v podadresari texlive-doc [3].
 
-   textovy (predvoleny pre vsetky ostatne systemy), ktory ma uplne
-          volby na prisposobenie. Moze byt zvoleny explicitne
-          prikazom: install-tl --gui=text.
+   Po ukonceni instalacie sa anglicka verzia prirucky nachadza v hierarchii 
+   texmf-dist/doc/texlive/ [4], v obidvoch formatoch - html [5] aj  pdf [6].
+   Preklady do inych jazykov su tiez dostupne na texmf-dist/doc/texlive [7].
 
-   perltk je prostredie GUI pre textovy rezim; je zvlast uzitocne pre
-          znalych pouzivatelov Windows, ktori nechcu predvolby. Moze 
-          byt zvoleny explicitne prikazom: install-tl --gui=perltk 
-          alebo spustenim suboru install-tl-advanced.bat pod Windows.
+   Poskytujeme tiez zoznam odkazov [8] na dostupnu PDF a HTML dokumentaciu 
+   zahrnutych balikov a programov.
 
+   Ak instalujete z Internetu, vyssie uvedene odkazy nebudu fungovat. 
+   V takom pripade si mozete dokumentaciu TeX Live pozriet na Internete [9].
 
-   Dodatocne aktualizacie balikov a dalsia konfiguracia sa teraz 
-   vykonavaju skriptom tlmgr (TeX Live Package Manager), ktory ma tiez
-   obidva rezimy - GUI a textovy.
+   Zoznam najdolezitejsich zmien v tohtorocnom vydani najdete v casti
+   História vydani na konci dokumentacie.
 
-   V prikazovom riadku mozete zadat volbu --help pre obidva programy 
-   [9]install-tl a [10]tlmgr na ziskanie podrobnejsich informacii 
-   o obidvoch programoch. Pre (ovela) viac informacii vid odkazy na 
-   dokumentaciu vyssie.
+  Instalacia 
+
+   Instalacny skript sa nazyva install-tl (install-tl-windows.bat pod
+   Windows) a pracuje v dvoch rezimoch:
+
+   -gui (prednastavene na Windows a Macs) standardne vykona jednoduchu 
+          instalaciu s pouzitim grafickeho rozhrania, na poziadanie 
+          vsak umoznuje aj pokrocile moznosti.
+
+   -no-gui (prednastavene vo vsetkych ostatnych systemoch) umoznuje 
+          vsetky dostupne volby pomocou zjednoduseneho textoveho rozhrania.
+
+   Aktualizacie balikov po instalacii a dalsie konfiguracie sa
+   vykonavaju programom tlmgr (TeX Live Package Manager), ktory
+   ma podobne aj GUI aj textove rezimy.
+
+   Pre obidva programy install-tl [10] a tlmgr [11] mozete zadat volbu 
+   prikazoveho riadka --help pre detailne informacie o nich. Na ziskanie 
+   (ovela) viac informacii vid vyssie uvedene odkazy na dokumentaciu.
 
   Odkazy
 
-   Na zaver uvadzame pre Vasu informaciu dalsie relevantne web stranky. 
-   Tieto nie su sucastou TeX Live:
+   Na zaver uvedme kvoli vasmu prehladu niekolko pribuznych www stranok. 
+   Tieto nie su zaradene v TeX Live:
 
-     * [11]http://tug.org/begin.html - ak ste TeXovsky zaciatocnik a/alebo 
-       mate zaujem o uvodne materialy.
-     * [12]http://tug.org/interest.html - vseobecny zoznam TeXovskych 
-       zdrojov na webe, obsahujuci dokumentaciu, systemy, baliky, fonty a 
-       dalsie.
-     * [13]http://tug.org/ctan.html - jeden z pristupov k archivu
-       Comprehensive TeX Archive Network (CTAN), sluziaci ako online
-       sklad vsetkych veci suvisiacich s TeXom.
-     * [14]http://tug.org/usergroups.html - zoznam zdruzeni pouzivatelov
-       TeXu po celom svete, spolu s kontaktnymi informaciami. Rozhodne Vam
-       doporucujeme pripojit sa k zdruzeniu podla Vasho vyberu, na podporu 
-       instalacie TeX Live a inych TeXovskych aktivit.
+     * [12] tug.org/begin.html - ak ste zaciatocnik v TeXu a/alebo mate
+       zaujem o uvodny material.
+     * [13] tug.org/interest.html - vseobecny zoznam webovych prostriedkov
+       TeXu vratane dokumentacie, balikov, fontov a dalsieho.
+     * [14] tug.org/ctan.html - jeden z pristupovych bodov na archivnu siet 
+       Comprehensive TeX Archive Network (CTAN), ktora je online skladiskom 
+       vsetkych TeXovskych veci.
+     * [15] tug.org/usergroups.html - zoznam skupin pouzivatelov TeXu 
+       z celeho sveta, s kontaktnymi informaciami. Dorazne vam odporucame 
+       pripojit sa do skupiny pouzivatelov podla vasho vyberu, aby ste 
+       podporili TeX Live a ine TeXovske aktivity.
+
 
     Stastne TeXovanie!
-    _________________________________________________________________
+     __________________________________________________________________
 
-   [15]Domovska stranka TeX Live.
+   [16] domovska stranka TeX Live.
 
-Odkazy
+Referencie
 
-   1. file:LICENSE.TL
-   2. file:LICENSE.CTAN
-   3. file:texmf-dist/doc/texlive/texlive-en
-   4. file:texmf-dist/doc/texlive/texlive-en/texlive-en.html
-   5. file:texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
-   6. file:texmf-dist/doc/texlive/
-   7. file:doc.html
-   8. http://tug.org/texlive/doc.html
-   9. http://tug.org/texlive/install-tl.html
-  10. http://tug.org/texlive/tlmgr.html
-  11. http://tug.org/begin.html
-  12. http://tug.org/interest.html
-  13. http://tug.org/ctan.html
-  14. http://tug.org/usergroups.html
-  15. http://tug.org/texlive/
+   1. file:../LICENSE.TL
+   2. file:../LICENSE.CTAN
+   3. file:../texlive-doc
+   4. file:../texmf-dist/doc/texlive/texlive-en
+   5. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.html
+   6. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
+   7. file:../texmf-dist/doc/texlive/
+   8. file:../doc.html
+   9. https://tug.org/texlive/doc.html
+  10. https://tug.org/texlive/doc/install-tl.html
+  11. https://tug.org/texlive/tlmgr.html
+  12. https://tug.org/begin.html
+  13. https://tug.org/interest.html
+  14. https://tug.org/ctan.html
+  15. https://tug.org/usergroups.html
+  16. https://tug.org/texlive/
