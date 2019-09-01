@@ -4,22 +4,21 @@ TeX Live ディストリビューションは，GNU 系やその他 UNIX, macOS,
 
 このディストリビューションには，TeX 全般について解説する文書とともに，同梱する各ソフトウェアやパッケージのドキュメントも含まれています．
 
-ライセンスに関する情報は，トップレベルにあるテキストファイル [LICENSE.TL](../LICENSE.TL) および [LICENSE.CTAN](../LICENSE.CTAN) をご覧ください．
+ライセンスに関する情報は，トップレベルにあるテキストファイル [LICENSE.TL](../LICENSE.TL) および [LICENSE.CTAN](../LICENSE.CTAN) を参照してください．
 
 ## はじめ方
 
 インストール作業を開始する前に TeX Live ガイドを読まれることを強くおすすめします．ガイドには TeX Live の基本的なディレクトリ構造やその他のしくみについて，詳細な説明が記載されています．
 
-もし DVD イメージから TeX Live をインストールされている場合は，英語版ガイドと各言語への翻訳は [texlive-doc](../texlive-doc) サブディレクトリに置かれています．  
-（残念ながら，2019年現在日本語版の TeX Live ガイドは存在しません．）
+もし DVD イメージから TeX Live をインストールされている場合は，英語版ガイドと日本語版を含む各言語への翻訳は [texlive-doc](../texlive-doc) サブディレクトリに置かれています．  
 
-インストール後，英語版のガイドは [texmf-dist/doc/texlive/](../texmf-dist/doc/texlive/texlive-en) 以下に [HTML](../texmf-dist/doc/texlive/texlive-en/texlive-en.html) 形式と [PDF](../texmf-dist/doc/texlive/texlive-en/texlive-en.pdf) 形式で配置されます．他の言語に翻訳されたバージョンも同じく [texmf-dist/doc/texlive](../texmf-dist/doc/texlive/) 以下にあります．
+インストール後，英語版のガイドは [texmf-dist/doc/texlive/](../texmf-dist/doc/texlive/texlive-en) 以下に [HTML](../texmf-dist/doc/texlive/texlive-en/texlive-en.html) 形式と [PDF](../texmf-dist/doc/texlive/texlive-en/texlive-en.pdf) 形式で配置されます．日本語版の TeX Live ガイド ([PDF](../texmf-dist/doc/texlive/texlive-ja/texlive-ja.pdf)) もあります．他の言語に翻訳されたバージョンも同じく [texmf-dist/doc/texlive](../texmf-dist/doc/texlive/) 以下にあります．
 
 すべての同梱パッケージ・プログラムのドキュメント (PDF, HTML) への[リンク集](../doc.html)もぜひご活用ください．
 
 インターネット経由でインストールを行う場合は，上述のリンクは利用できないため，[オンライン版の TeX Live ドキュメント](https://tug.org/texlive/doc.html)をご参照ください．
 
-今年の TeX Live リリースの重要な変更点の一覧については，上記 TeX Live ドキュメントの末尾にある Release history 節をご覧ください．
+今年の TeX Live リリースの重要な変更点の一覧については，上記 TeX Live ドキュメントの末尾にある更新履歴 (Release history) の節を参照してください．
 
 ## インストール
 
@@ -32,7 +31,7 @@ TeX Live ディストリビューションは，GNU 系やその他 UNIX, macOS,
 
 インストール後のパッケージ更新やその他設定は，同じく GUI モードとテキストモードを持つ tlmgr（TeX Live パッケージマネージャ）プログラムで行うことができます．
    
-install-tl および tlmgr の詳細情報はコマンドラインオプション `--help` を各プログラムに付けて実行してください．（さらに）詳しい情報については，上記のドキュメントへのリンクをご参照ください．
+install-tl および tlmgr の詳細情報はコマンドラインオプション `--help` を各プログラムに付けて実行してください．（さらに）詳しい情報については，上記のドキュメントへのリンクを参照してください．
 
 ## リンク集
 
@@ -44,6 +43,7 @@ install-tl および tlmgr の詳細情報はコマンドラインオプショ�
 * <https://tug.org/usergroups.html>: 世界中の TeX ユーザー会とその連絡先のリスト．お好きなユーザー会に入会して，TeX Live とその他の TeX 関連プロジェクトに参加いただければ幸いです．
 
 Happy TeXing!
+
 __________________________________________________________
 
-[TeX Live ホームページ](https://tug.org/texlive/)
+[TeX Live ウェブサイト](https://tug.org/texlive/)
