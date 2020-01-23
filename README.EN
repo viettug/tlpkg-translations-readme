@@ -39,11 +39,10 @@ Welcome to TeX Live
 
    The installation script is named install-tl and is at the top level of
    the directory tree. You can invoke it with perl install-tl. On Windows,
-   you can also simply run the companion batch file,
-   install-tl-windows.bat. You can invoke it with perl install-tl. On
-   Macs, you will probably want to install via [10]MacTeX, which has its
-   own native installer (it's also available on the DVD, next to the
-   texlive/ you're in now.)
+   you can run the companion batch file, install-tl-windows.bat. On Macs,
+   you will probably want to install via [10]MacTeX, which has its own
+   native installer (it's also available on the DVD, next to the texlive/
+   you're in now.)
 
    install-tl has two operation modes:
 
