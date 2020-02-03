@@ -1,120 +1,115 @@
-
-
 Bienvenido a TeX Live
 
-   La distribuci√≥n del programa TeX Live ofrece un sistema completo de TeX para
-   una variedad de plataformas de GNU y Unix, Macintosh, Windows, entre muchas
-   otras. La distribuci√≥n abarca programas para editar, para la composici√≥n
-   tipogr√°fica, para pre-visualizar, e imprimir documentos TeX en muchos
-   diferentes idiomas, y cuenta con una inmensa colecci√≥n de macros de TeX y
-   librer√≠as de fuentes. 
+   La distribuciÛn del programa TeX Live ofrece un sistema completo de TeX
+   para una variedad de plataformas de GNU y Unix, Macintosh, Windows,
+   entre muchas otras. La distribuciÛn abarca programas para editar, para
+   realizar composiciones tipogr·ficas, para pre-visualizar, e imprimir
+   documentos TeX en muchos diferentes idiomas, y cuenta con una inmensa
+   colecciÛn de macros de TeX y librerÌas de fuentes.
 
-   La distribuci√≥n incluye documentaci√≥n extensiva acerca de TeX, al
-   igual que la documentaci√≥n para los programas de los paquetes que
-   est√°n incluidos. 
+   La distribuciÛn incluye documentaciÛn extensiva acerca de TeX, al igual
+   que la documentaciÛn para los programas de los paquetes que est·n
+   incluidos.
 
-   Para m√°s informaci√≥n acerca de la licencia, por favor visite los archivos del alto-nivel [1]LICENSE.TL y [2]LICENSE.CTAN.
+   Para m·s informaciÛn acerca de la licencia, por favor vea los archivos
+   [1]LICENSE.TL y [2]LICENSE.CTAN en el alto-nivel de la distribuciÛn.
 
-  D√≥nde comenzar
-   
-   Recomendamos enf√°ticamente leer la Gu√≠a de TeX Live antes de
-   comenzar con la instalaci√≥n. Esta gu√≠a incluye instrucciones
-   paso-a-paso, una descripci√≥n de los directorios en el alto-nivel, y
-   mucho m√°s.
+  DÛnde comenzar
 
-   Si la instalaci√≥n es a trav√©s de la imagen del DVD, tanto la Gu√≠a
-   en Espa√±ol como todas las otras traducciones, se encuentran
-   disponibles en el subdirectorio de [3]texlive-doc.
+   Recomendamos enf·ticamente leer la GuÌa de TeX Live antes de comenzar
+   con la instalaciÛn. Esta guÌa incluye instrucciones paso-a-paso, una
+   descripciÛn de los directorios en el alto-nivel, y mucho m·s.
 
-   Despu√©s de la instalaci√≥n, las versiones en Espa√±ol de la Gu√≠a se
-   encuentran en la jerarqu√≠a de [4]texmf-dist/doc/texlive/ en ambos
-   formatos [5]html y [6]pdf. Traducciones en otros idiomas se
-   encuentran disponibles bajo [7]texmf-dist/doc/texlive.
+   Si la instalaciÛn es a travÈs de la imagen del DVD, tanto la GuÌa en
+   EspaÒol como todas las traducciones, se encuentran en el subdirectorio
+   de [3]texlive-doc
 
-   Tambi√©n proveemos una lista de [8]enlaces para la documentaci√≥n en
-   PDF y HTML de los paquetes y programas incluidos. 
+   DespuÈs de la instalaciÛn, las versiones en EspaÒol de la GuÌa se
+   encuentran en la jerarquÌa de [4]texmf-dist/doc/texlive en ambos
+   formatos [5]html y [6]pdf. Traducciones en otros idiomas se encuentran
+   disponibles bajo [7]texmf-dist/doc/texlive.
 
-   Si est√° llevando a cabo la instalaci√≥n a trav√©s del Internet, los
-   enlaces que se mencionaron anteriormente no trabajar√°n. En ese
-   caso, puede ver la documentaci√≥n de [9]TeX Live en el Internet.
+   TambiÈn proveemos una lista de [8]enlaces para la documentaciÛn en PDF
+   y HTML de los paquetes y programas incluidos.
 
-   Para ver la lista de los cambios m√°s importantes de
-   la versi√≥n de este a√±o, vea la secci√≥n de la historia del
-   Lanzamiento que se encuentra al final de la documentaci√≥n. 
+   Si est· llevando a cabo la instalaciÛn a travÈs del Internet, los
+   enlaces que se mencionaron anteriormente no trabajar·n. En ese caso,
+   puede ver [9]la documentaciÛn de TeX Live en el Internet.
 
-  Instalaci√≥n
+   Para ver la lista de los cambios m·s importantes de la versiÛn de este
+   aÒo, vea la secciÛn de la Historia del Lanzamiento que se encuentra al
+   final de este documento.
 
-   El programa (script) de instalaci√≥n lleva el nombre install-tl
-   (en Windows se nombra install-tl-windows.bat), y tiene dos modos de
-   operaci√≥n:
+  InstalaciÛn
 
-   -gui (est√°ndar en Windows y Macs) el cual realiza una instalaci√≥n sencilla
-   	est√°ndar, mediante el uso de una interfaz gr√°fica, pero que no obstante
-   	permite muchas opciones avanzadas si se necesitan.
+   El programa (script) de instalaciÛn lleva el nombre install-tl y est·
+   en el nivel alto del ·rbol del directorio. Lo puedes invocar con
+   perlinstall-tl. En Windows, se puede ejecutar el adjunto archivo batch
+   (install-tl-windows.bat. En las Macs, probablemente es mejor instalarlo
+   a travÈs de [10]MacTeX, el cual tiene su propio instalador nativo (est·
+   tambiÈn en el DVD, junto a texlive en el que est·s ahora.)
 
-   -no-gui (est√°ndar en todos los otros sistemas operativos) el cual provee
-   	todas las opciones que est√°n disponibles, utilizando una interfaz
-   	simplificada de texto.
+   install-tl tiene dos modos de operaciÛn:
 
-   Las actualizaciones post-instalaci√≥n de los paquetes, al igual que
-   otras configuraciones son llevadas a cabo con el programa (script)
-   tlmgr (TeX Live Package Manager), el cual tambi√©n opera en ambos
-   modos: texto y GUI.
+   -gui (est·ndar en Windows y Macs) el cual realiza una instalaciÛn
+          sencilla est·ndar, mediante el uso de una interfaz gr·fica, pero
+          que no obstante permite muchas opciones avanzadas si se
+          necesitan.
 
-   Usted puede ejecutar la opci√≥n --help en la l√≠nea de comando para
-   ambos: [10]install-tl y [11]tlmgr, que brinda informaci√≥n m√°s detallada
-   acerca de estos programas. Vea los enlaces de la documentaci√≥n
-   encima para (mucha) m√°s informaci√≥n.
+   -no-gui (est·ndar en todos los otros sistemas operativos) el cual
+          provee todas las opciones que est·n disponibles, utilizando una
+          interfaz gr·fica simplificada de texto.
+
+          Las actualizaciones post-instalaciÛn de los paquetes, al igual
+          que otras configuraciones son llevadas a cabo con el programa
+          (script) tlmgr (TeX Live Package Manager), el cual tambiÈn opera
+          en ambos modos: texto y GUI.
+
+          Usted puede ejecutar la opciÛn --help en la lÌnea de comando
+          para ambos: [11]install-tl y [12]tlmgr que brinda informaciÛn
+          m·s detallada acerca de estos programas. Vea los enlaces de la
+          documentaciÛn encima para (mucha) m·s informaciÛn.
 
   Enlaces
 
-   Finalmente, unas cuantas p√°ginas web, para referencia. Estas p√°ginas
-   no est√°n incluidas en TeX Live:
-   
-     * [12]http://tug.org/begin.html - si eres principiante en TeX y/o
-       quieres material de introducci√≥n.
-     * [13]http://tug.org/interest.html - lista general en la web de
-     * recursos sobre TeX, incluyendo documentaci√≥n, sistemas,
-     * paquetes, fuentes y m√°s. 
-     * [14]http://tug.org/ctan.html - un punto de entrada en el
-       Comprehensive TeX Archive Network (CTAN), el cual es un
-       repositorio de todas las cosas relacionadas con TeX. 
-     * [15]http://tug.org/usergroups.html - lista de los grupos de
-       usuarios de TeX alrededor del mundo, con informaci√≥n de
-       contacto. Le exhortamos enf√°ticamente que se afilie con el
-       grupo de usuarios de su preferencia, para as√≠ apoyar TeX Live y
-       otras actividades de TeX. 
+          Finalmente, unas cuantas p·ginas web, para referencia. Estas
+          p·ginas no est·n incluidas en TeX Live:
 
-   Feliz TeXing! 
-      
-      --------------------------------------------------------------
+          + [13]http://tug.org/begin.html - si eres principiante en TeX
+            y/o quieres material de introducciÛn.
+          + [14]http://tug.org/interest.html - lista general en la web de
+            recursos sobre TeX, incluyendo documentaciÛn, sistemas,
+            paquetes, fuentes y m·s.
+          + [15]http://tug.org/ctan.html - un punto de entrada en el
+            Comprehensive TeX Archive Network (CTAN), el cual es un
+            repositorio de todas las cosas relacionadas con TeX.
+          + [16]http://tug.org/usergroups.html - lista de los grupos de
+            usuarios de TeX alrededor del mundo, con informaciÛn de
+            contacto. Le exhortamos enf·ticamente que se afilie con el
+            grupo de usuarios de su preferencia, para asÌ apoyar TeX Live
+            y otras actividades de TeX.
 
-   [16]P√°gina de TeX Live en el web. 
+    Feliz TeXing!
+            ___________________________________________________________
 
-Referencias
+          [17]P·gina de TeX Live en el web.
 
-   
-   1. file:../LICENSE.TL
-   2. file:../LICENSE.CTAN
-   3. file:../texlive-doc
-   4. file:../texmf-dist/doc/texlive/texlive-es
-   5. file:../texmf-dist/doc/texlive/texlive-es/texlive-es.html
-   6. file:../texmf-dist/doc/texlive/texlive-es/texlive-es.pdf
-   7. file:../texmf-dist/doc/texlive/
-   8. file:../doc.html
+References
+
+   1. file:///home/c/LICENSE.TL
+   2. file:///home/c/LICENSE.CTAN
+   3. file:///home/c/texlive-doc
+   4. file:///home/c/texmf-dist/doc/texlive/texlive-es
+   5. file:///home/c/texmf-dist/doc/texlive/texlive-es/texlive-es.html
+   6. file:///home/c/texmf-dist/doc/texlive/texlive-es/texlive-es.pdf
+   7. file:///home/c/texmf-dist/doc/texlive/
+   8. file:///home/c/doc.html
    9. http://tug.org/texlive/doc.html
-  10. http://tug.org/texlive/doc/install-tl.html
-  11. http://tug.org/texlive/tlmgr.html
-  12. http://tug.org/begin.html
-  13. http://tug.org/interest.html
-  14. http://tug.org/ctan.html
-  15. http://tug.org/usergroups.html
-  16. http://tug.org/texlive/
-      
-
-
- 
-
-
-
-
+  10. https://tug.org/mactex/
+  11. http://tug.org/texlive/doc/install-tl.html
+  12. http://tug.org/texlive/tlmgr.html
+  13. http://tug.org/begin.html
+  14. http://tug.org/interest.html
+  15. http://tug.org/ctan.html
+  16. http://tug.org/usergroups.html
+  17. http://tug.org/texlive
