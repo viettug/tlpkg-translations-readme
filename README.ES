@@ -96,20 +96,20 @@ Bienvenido a TeX Live
 
 References
 
-   1. file:///home/c/LICENSE.TL
-   2. file:///home/c/LICENSE.CTAN
-   3. file:///home/c/texlive-doc
-   4. file:///home/c/texmf-dist/doc/texlive/texlive-es
-   5. file:///home/c/texmf-dist/doc/texlive/texlive-es/texlive-es.html
-   6. file:///home/c/texmf-dist/doc/texlive/texlive-es/texlive-es.pdf
-   7. file:///home/c/texmf-dist/doc/texlive/
-   8. file:///home/c/doc.html
-   9. http://tug.org/texlive/doc.html
+   1. file:../LICENSE.TL
+   2. file:../LICENSE.CTAN
+   3. file:../texlive-doc
+   4. file:../texmf-dist/doc/texlive/texlive-es
+   5. file:../texmf-dist/doc/texlive/texlive-es/texlive-es.html
+   6. file:../texmf-dist/doc/texlive/texlive-es/texlive-es.pdf
+   7. file:../texmf-dist/doc/texlive/
+   8. file:../doc.html
+   9. https://tug.org/texlive/doc.html
   10. https://tug.org/mactex/
-  11. http://tug.org/texlive/doc/install-tl.html
-  12. http://tug.org/texlive/tlmgr.html
-  13. http://tug.org/begin.html
-  14. http://tug.org/interest.html
-  15. http://tug.org/ctan.html
-  16. http://tug.org/usergroups.html
-  17. http://tug.org/texlive
+  11. https://tug.org/texlive/doc/install-tl.html
+  12. https://tug.org/texlive/tlmgr.html
+  13. https://tug.org/begin.html
+  14. https://tug.org/interest.html
+  15. https://tug.org/ctan.html
+  16. https://tug.org/usergroups.html
+  17. https://tug.org/texlive
