@@ -1,83 +1,84 @@
 TeX Live zaprasza
 
-   TeX Live oferuje pel/ny system TeX-a dla wielu r髗nych system體
-   operacyjnych, Unix, Macintosh, Windows i wielu innych. Znajdziemy tu
-   programy do skl/adu tekst體, programy do przegladania i drukowania
-   dokument體 TeX-owych w wielu jezykach oraz bogate kolekcje makr i
-   font體.
+   TeX Live oferuje pe艂n膮 instalacj臋 systemu TeX-a dla  r贸偶nych system贸w
+   operacyjnych: GNU/Unix, Macintosh, Windows i wielu innych. Znajdziemy tu
+   programy do edycji, sk艂adu, przegl膮dania i drukowania dokument贸w TeX-owych w wielu 
+   j臋zykach oraz bogate kolekcje makr i font贸w.
+   
+   Dystrybucja zawiera obszern膮 dokumentacj臋 TeX-a, a tak偶e dokumentacje
+   towarzysz膮ce poszczeg贸lnym pakietom oprogramowania.
 
-   Dystrybucja zawiera obszerna dokumentacje TeX-a, a takze dokumentacje
-   towarzyszace poszczeg髄nym pakietom oprogramowania.
-
-   Infomacje licencyjne (w jezyku angielskim) mozna znalezc w plikach
+   Infomacje licencyjne (w j臋zyku angielskim) mo偶na znale藕膰 w plikach
    tekstowych [1]LICENSE.TL oraz [2]LICENSE.CTAN.
 
-  Od czego zaczac
+Od czego zacz膮膰
 
-   Przed rozpoczeciem instalacji zalecamy wydrukowac i przeczytac
-   Przewodnik po TeX Live. Prowadzi on krok po kroku przez instalacje,
-   znajdziemy tam opis gl/體nego drzewa katalog體 i duzo wiecej.
+   Przed rozpocz臋ciem instalacji zalecamy wydrukowa膰 i przeczyta膰
+   Przewodnik po TeX Live. Prowadzi on krok po kroku przez instalacj臋,
+   znajdziemy tam te偶 opis g艂贸wnego drzewa katalog贸w i du偶o wi臋cej.
 
-   Gdy instalujemy z pl/ytki DVD, wersje Przewodnika w kilku jezykach
-   dostepne sa w podkatalogu [3]texlive-doc.
+   Gdy instalujemy z p艂ytki DVD, wersje Przewodnika w kilku j臋zykach dost臋pne s膮
+   w podkatalogu [3]texlive-doc.
 
-   Po zainstalowaniu systemu, Przewodnik w jezyku angielskim w formacie
-   [4]html i [5]pdf znajdziemy w [6]texmf-dist/doc/texlive/. Tam tez sa
-   dostepne inne wersje jezykowe Przewodnika, w tym polska.
+   Po zainstalowaniu systemu, Przewodnik w j臋zyku angielskim w formacie
+   [4]html i [5]pdf znajdziemy w [6]texmf-dist/doc/texlive/.  
+   Inne wersje j臋zykowe Przewodnika, w tym polska dost臋pne s膮 tak偶e w 
+   [7]texmf-dist/doc/texlive.
 
-   Dol/aczylismy r體niez liste odnosnik體 do [7]dokumentacji HTML and PDF
-   program體 i pakiet體 zawartych w instalacji.
+   Do艂膮czyli艣my r贸wnie偶 list臋 odno艣nik贸w do [8]dokumentacji HTML i PDF
+   program贸w i pakiet贸w zawartych w instalacji.
 
-   Jesli instalujemy TeX Live z internetu, powyzsze odnosniki nie
-   dzial/aja. W tym przypadku nalezy siegnac do dokumentacji tutaj: [8]TeX
-   Live documentation on the Internet.
+   Je艣li instalujemy TeX Live z internetu, powy偶sze odno艣niki nie dzia艂aj膮. 
+   W tym przypadku nale偶y si臋gn膮膰 do dokumentacji tutaj: [9]dokumentacja TeX Live
+   w internecie.
 
-   Lista najwazniejszych zmian w biezacej edycji znajduje sie na koncu
-   dokumentacji w rozdziale Historia.
+   Lista najwa偶niejszych zmian w bie偶膮cej edycji znajduje si臋 na ko艅cu dokumentacji 
+   w rozdziale Historia.
 
-  Instalacja
+Instalacja
 
-   Skrypt instalacyjny nazywa sie install-tl (install-tl-windows.bat dla
-   Windows) i ma dwa tryby pracy:
+   Skrypt instalacyjny nazywa si臋 install-tl i umieszczony jest na najwy偶szym poziomie 
+   drzewa katalog贸w. Mo偶na go uruchomi膰 poleceniem perl instal-tl. W systemie Windows 
+   mo偶na uruchomi膰 do艂膮czony skrypt install-tl-windows.bat. Dla Macs najlepiej instalowa膰 
+   przez [10]MacTeX kt贸ry ma w艂asny instalator (dost臋pny teraz r贸wnie偶 na p艂ytce DVD obok texlive/).
 
-   -gui (domyslny dla Windows i Macs), kt髍y uzywajac interfejsu
-          graficznego, bez zbednych zapytan instaluje cal/y system, ale
-          pozwala r體niez na wybranie instalacji zaawansowanej.
+   Skrypt instalacyjny install-tl ma dwa tryby pracy:
 
-   -no-gui (domyslny dla wszystkich innych system體), kt髍y w trakcie
-          instalacji umozliwia wyb髍 wszystkich dostepnych opcji za pomoca
-          prostego interfejsu tekstowego.
+   -gui (domy艣lny dla Windows i Macs), kt贸ry u偶ywajac interfejsu graficznego, 
+    bez zb臋dnych zapyta艅 instaluje ca艂y system, ale pozwala r贸wnie偶 na wybranie 
+    instalacji zaawansowanej.
 
-   Do dodawania/usuwania pakiet體, aktualizacji z internetu oraz innych
-   czynnosci konfiguracjnych mozna uzyc programu tlmgr (TeX Live Package
-   Manager), kt髍y tak jak program instalacyjny, ma dwa tryby pracy
-   (graficzny oraz tekstowy).
+   -no-gui (domy艣lny dla wszystkich innych system贸w), kt贸ry w trakcie instalacji 
+    umo偶liwia wyb贸r wszystkich dost臋pnych opcji za pomoc膮  prostego interfejsu tekstowego.
 
-   Szczeg髄/owe informacje o [9]install-tl i [10]tlmgr uzyskamy
-   uruchamiajac je z linii polecen z parametrem --help. Wiecej informacji
-   mozna znalezc w dokumentacji, o kt髍ej byl/a mowa powyzej.
+   Do dodawania/usuwania pakiet贸w, aktualizacji z internetu oraz innych czynno艣ci 
+   konfiguracjnych mo偶na u偶y膰 programu tlmgr (TeX Live Package Manager), kt贸ry 
+   tak jak program instalacyjny, ma dwa tryby pracy (graficzny oraz tekstowy).
 
-  Przydatne linki
+   Szczeg贸艂owe informacje o [11]install-tl i [12]tlmgr uzyskamy uruchamiaj膮c je z linii polece艅 
+   z parametrem --help. Wi臋cej informacji mo偶na znale藕膰 w dokumentacji, o kt贸rej by艂a mowa powy偶ej.
+   
+Przydatne linki
 
-   Na koniec kilka adres體 stron internetowych, na kt髍ych mozna znalezc
-   wiecej informacji o TeX-u. Nie sa one dol/aczone do TeX Live:
+   Na koniec kilka adres贸w stron internetowych, na kt贸rych mozna znale藕膰 wi臋cej informacji 
+   o TeX-u. Nie s膮 one do艂膮czone do TeX Live:
 
-     * [11]tug.org/begin.html - dla poczatkujacych uzytkownik體 TeX-a
-       i/lub potrzebujacych podstawowych o nim informacji.
-     * [12]tug.org/interest.html - gl/體na lista internetowych zasob體
-       TeX-owych, system體, pakiet體, font體 i wielu innych, takze
+     * [13]tug.org/begin.html - dla pocz膮tkuj膮cych u偶ytkownik贸w TeX-a
+       i/lub potrzebuj膮cych podstawowych o nim informacji.
+     * [14]tug.org/interest.html - g艂贸wna lista internetowych zasob贸w
+       TeX-owych, system贸w, pakiet贸w, font贸w i wielu innych, tak偶e
        dokumentacji.
-     * [13]tug.org/ctan.html - jeden z adres體 Comprehensive TeX Archive
-       Network (CTAN), kt髍y zawiera swiatowe archiwa TeX-owe.
-     * [14]tug.org/usergroups.html - lista grup uzytkownik體 systemu TeX
-       na cal/ym swiecie, wraz z danymi kontaktowymi. Goraco zachecamy do
-       przyl/aczenia sie do wybranej grupy uzytkownik體, a takze
-       wspomagania prac przy TeX Live oraz innych aktywnosci.
+     * [15]tug.org/ctan.html - jeden z adres贸w Comprehensive TeX Archive
+       Network (CTAN), kt贸ry zawiera 艣wiatowe archiwa TeX-owe.
+     * [16]tug.org/usergroups.html - lista grup u偶ytkownik贸w systemu TeX
+       na ca艂ym 艣wiecie, wraz z danymi kontaktowymi. Gor膮co zach臋camy do
+       przy艂膮czenia si臋 do wybranej grupy u偶ytkownik贸w, a tak偶e
+       wspomagania prac przy TeX Live oraz innych aktywno艣ci.
 
-    Mil/ego TeX-owania!
+    Mi艂ego TeX-owania!
      __________________________________________________________________
 
-   [15]TeX Live home page.
+   [16]TeX Live home page.
 
 References
 
@@ -87,12 +88,14 @@ References
    4. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.html
    5. file:../texmf-dist/doc/texlive/texlive-en/texlive-en.pdf
    6. file:../texmf-dist/doc/texlive/texlive-en
-   7. file:../doc.html
-   8. https://tug.org/texlive/doc.html
-   9. https://tug.org/texlive/doc/install-tl.html
-  10. https://tug.org/texlive/tlmgr.html
-  11. https://tug.org/begin.html
-  12. https://tug.org/interest.html
-  13. https://tug.org/ctan.html
-  14. https://tug.org/usergroups.html
-  15. https://tug.org/texlive/
+   7. file:../texmf-dist/doc/texlive/
+   8. file:../doc.html
+   9. https://tug.org/texlive/doc.html
+  10. https://tug.org/mactex/
+  11. https://tug.org/texlive/doc/install-tl.html
+  12. https://tug.org/texlive/tlmgr.html
+  13. https://tug.org/begin.html
+  14. https://tug.org/interest.html
+  15. https://tug.org/ctan.html
+  16. https://tug.org/usergroups.html
+  17. https://tug.org/texlive/
