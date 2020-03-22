@@ -1,3 +1,4 @@
+
 Benvenuti a TeX Live
 
    La distribuzione software TeX Live offre un sistema
@@ -41,64 +42,69 @@ Benvenuti a TeX Live
 
   Installazione
 
-   Lo script di installazione è chiamato install-tl
-   (install-tl-windows.bat su Windows) ed ha due modi operativi:
+Il programma di installazione (script) si chiama install-tl ed è al livello più alto dell'albero delle directory. Puoi invocarlo con
+perlinstall-tl. Su Windows, puoi eseguire il file batch allegato (install-tl-windows.bat. Sui Mac, probabilmente è meglio installarlo tramite [10] MacTeX, che ha il suo programma di installazione nativo (è anche sul DVD, insieme per capire che ci sei adesso.)
 
-   -gui (predefinito su Windows e Macs) che esegue di default
-          una semplice installazione, usando un'interfaccia grafica, ma se
-          lo si desidera permette l'accesso alle opzioni avanzate.
+   install-tl ha due modalità operative:
 
-   -no-gui (predefinito su tutte le altre piattaforme) che
-          ha tutte le opzioni di configurazione, usando una interfaccia
-          testuale semplificata.
+   -gui (predefinito su Windows e Mac) che esegue un'installazione
+          predefinito semplice, usando un'interfaccia grafica, ma
+          che tuttavia consente molte opzioni avanzate se tu
+          hanno bisogno.
 
-   Gli aggiornamenti dei pacchetti ed altre configurazioni successive
-   all'installazione si ottengono con lo script tlmgr (TeX Live
-   Package Manager, Gestore dei Pacchetti di TeX Live), che ha sia
-   una modalità grafica che una testuale.
+   -no-gui (predefinito su tutti gli altri sistemi operativi) che
+          fornisce tutte le opzioni disponibili, usando a
+          interfaccia grafica testuale semplificata.
 
-   Potete dare l'opzione a riga di comando --help sia per [10]install-tl
-   che per [11]tlmgr per informazioni dettagliate su entrambi i programmi.
-   Visitate i precedenti collegamenti alla documentazione per avere (molte)
-   più informazioni.
+          Aggiornamenti del pacchetto post-installazione, come
+          che altre configurazioni vengono eseguite con il programma
+          (script) tlmgr (TeX Live Package Manager), che funziona anche in entrambe le modalità: testo e GUI.
 
+È possibile eseguire l'opzione --help dalla riga di comando
+per entrambi: [11] install-tl e [12] tlmgr che forniscono informazioni più dettagliate su questi programmi. Vedi i link del
+documentazione sopra per (molte) maggiori informazioni
+   
   Collegamenti
 
    Ecco infine alcune pagine web di riferimento. Queste non sono incluse
    in TeX Live:
 
-     * [12]tug.org/begin.html - se siete nuovi di TeX e/o desiderate del
-       materiale introduttivo.
-     * [13]tug.org/interest.html - elenchi generali di risorse web per TeX,
-       inclusi documentazione, sistemi, pacchetti, font e molto altro.
-     * [14]tug.org/ctan.html - un punto di accesso alla Comprehensive TeX
-       Archive Network (CTAN), che è una raccolta online di tutto ciò che
-       riguarda TeX.
-     * [15]tug.org/usergroups.html - l'elenco di tutti i gruppi utenti TeX nel
-       mondo, con informazioni sui loro contatti. Vi incoraggiamo caldamente ad
-       unirvi ad un gruppo di vostra scelta per sostenere TeX Live e le altre
-       attività legate a TeX.
+
+	  + [13] http://tug.org/begin.html - se sei un principiante TeX
+            e / o vuoi materiale introduttivo.
+          + [14] http://tug.org/interest.html - elenco generale sul web di
+            Risorse TeX, tra cui documentazione, sistemi,
+            pacchetti, caratteri e altro ancora.
+          + [15] http://tug.org/ctan.html - un punto di ingresso nel
+            Rete completa di archivi TeX (CTAN), che è a
+            repository di tutte le cose relative a TeX.
+          + [16] http://tug.org/usergroups.html - elenco di gruppi di
+            Utenti TeX di tutto il mondo, con informazioni da
+            contatto. Ti consigliamo vivamente di unirti a
+            gruppo di utenti di tua scelta, al fine di supportare TeX Live
+            e altre attività TeX.
 
     Buon lavoro con TeX!
-     _________________________________________________________________
+            ___________________________________________________________
 
-   [16]Home page di TeX Live.
+          [17] Pagina TeX Live sul web.
 
 Riferimenti
 
-   1. file:../LICENSE.TL
-   2. file:../LICENSE.CTAN
-   3. file:../texlive-doc
-   4. file:../texmf-dist/doc/texlive/texlive-it
-   5. file:../texmf-dist/doc/texlive/texlive-it/texlive-it.html
-   6. file:../texmf-dist/doc/texlive/texlive-it/texlive-it.pdf
-   7. file:../texmf-dist/doc/texlive/
-   8. file:../doc.html
+   1. file: ../ LICENSE.TL
+   2. file: ../ LICENSE.CTAN
+   3. file: ../ texlive-doc
+   4. file: ../ texmf-dist / doc / texlive / texlive-it
+   5. file: ../ texmf-dist / doc / texlive / texlive-it / texlive-it.html
+   6. file: ../ texmf-dist / doc / texlive / texlive-it / texlive-it.pdf
+   7. file: ../ texmf-dist / doc / texlive /
+   8. file: ../ doc.html
    9. https://tug.org/texlive/doc.html
-  10. https://tug.org/texlive/doc/install-tl.html
-  11. https://tug.org/texlive/tlmgr.html
-  12. https://tug.org/begin.html
-  13. https://tug.org/interest.html
-  14. https://tug.org/ctan.html
-  15. https://tug.org/usergroups.html
-  16. https://tug.org/texlive/
+  10. https://tug.org/mactex/
+  11. https://tug.org/texlive/doc/install-tl.html
+  12. https://tug.org/texlive/tlmgr.html
+  13. https://tug.org/begin.html
+  14. https://tug.org/interest.html
+  15. https://tug.org/ctan.html
+  16. https://tug.org/usergroups.html
+  17. https://tug.org/texlive
