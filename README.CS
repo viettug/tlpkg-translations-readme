@@ -71,20 +71,20 @@ Vítejte v TeX Live
 
 Odkazy
 
-          * [13] http://tug.org/begin.html - pokud jste začátečník TeX
+          * [13] https://tug.org/begin.html - pokud jste začátečník TeX
             a / nebo chcete úvodní materiál.
-          * [14] http://tug.org/interest.html - obecný seznam na webu
+          * [14] https://tug.org/interest.html - obecný seznam na webu
             Prostředky TeX, včetně dokumentace, systémů,
             balíčky, písma a další.
-          * [15] http://tug.org/ctan.html - vstupní bod v
+          * [15] https://tug.org/ctan.html - vstupní bod v
             Komplexní síť TeX Archive Network (CTAN), což je a
             úložiště všech věcí souvisejících s TeXem.
-          * [16] http://tug.org/usergroups.html - seznam skupin
+          * [16] https://tug.org/usergroups.html - seznam skupin
             Uživatelé TeXu z celého světa, s informacemi od
             kontakt. Důrazně žádáme, abyste se připojili
             uživatelská skupina podle vašeho výběru, za účelem podpory TeX Live
             a další aktivity TeXu.
-	  * [17]http://www.cstug.cz. Podpoříte tím TeX Live a další TeXové aktivity.
+	  * [17]https://www.cstug.cz. Podpoříte tím TeX Live a další TeXové aktivity.
 
 Příjemné TeXování!
 
