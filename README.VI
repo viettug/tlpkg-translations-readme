@@ -36,12 +36,12 @@ Chào mừng bạn đến với TeX Live
 
   Cài đặt
 
-   Tập tin kịch bản cài đặt là install-tl (install-tl-windows.bat trên máy
-   Windows) nằm ở thư mục gốc của TeXLive. Bạn có thể chạy nó bằng lệnh
-   perl install-tl. Nhưng trên máy Windows, bạn chạy lệnh
-   install-tl-windows.bat, còn trên máy Macs, bạn có thể cài đặt TeXLive
-   thông qua trình cài đặt viết riêng cho Macs có trong bộ [10]MacTeX
-   (cũng có trong đĩa DVD, cạnh thư mục texlive/ nơi bạn thấy tập tin này.)
+   Tập tin kịch bản cài đặt là install-tl nằm ở thư mục gốc của TeXLive.
+   Bạn có thể chạy nó bằng lệnh perl install-tl. Nhưng trên máy Windows,
+   bạn chạy lệnh install-tl-windows.bat, còn trên máy Macs, bạn có thể cài
+   đặt TeXLive thông qua trình cài đặt viết riêng cho Macs có trong bộ
+   [10]MacTeX (cũng có trong đĩa DVD, cạnh thư mục texlive/ nơi bạn thấy
+   tập tin này.)
 
    install-tl có thể chạy ở một trong hai chế độ:
 
