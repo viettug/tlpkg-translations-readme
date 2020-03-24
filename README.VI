@@ -36,8 +36,14 @@ Chào mừng bạn đến với TeX Live
 
   Cài đặt
 
-   Kịch bản cài đặt có tên install-tl (hay install-tl-windows.bat cho
-   các máy Windows) có thể được dùng ở hai chế độ:
+   Tập tin kịch bản cài đặt là install-tl (install-tl-windows.bat trên máy
+   Windows) nằm ở thư mục gốc của TeXLive. Bạn có thể chạy nó bằng lệnh
+   perl install-tl. Nhưng trên máy Windows, bạn chạy lệnh
+   install-tl-windows.bat, còn trên máy Macs, bạn có thể cài đặt TeXLive
+   thông qua trình cài đặt viết riêng cho Macs có trong bộ [10]MacTeX
+   (cũng có trong đĩa DVD, cạnh thư mục texlive/ nơi bạn thấy tập tin này.)
+
+   install-tl có thể chạy ở một trong hai chế độ:
 
    -gui (mặc định trên Windows và Mac) với giao diện đồ họa giúp đơn giản
           hóa quá trình cài đặt, nhưng vẫn có tùy chọn để điều chỉnh bộ
@@ -51,7 +57,7 @@ Chào mừng bạn đến với TeX Live
    hay chương trình quản lý TeX Live). Chương trình này cũng có thể
    chạy ở chế độ đồ họa hoặc dòng lệnh.
 
-   Chương trình [10]install-tl và [11]tlmgr đều in ra các hướng dẫn khi
+   Chương trình [11]install-tl và [12]tlmgr đều in ra các hướng dẫn khi
    được dùng với tùy chọn --help. Xem các liên kết đã dẫn ở trên để có
    thêm chi tiết.
 
@@ -60,13 +66,13 @@ Chào mừng bạn đến với TeX Live
    Cuối cùng, chúng tôi giới thiệu với các bạn vài trang web liên quan
    (nhưng không phải là một phần của TeX Live):
 
-     * [12]tug.org/begin.html - dành cho người mới làm quen với TeX hay
+     * [13]tug.org/begin.html - dành cho người mới làm quen với TeX hay
        muốn tiếp cận các tài liệu giới thiệu.
-     * [13]tug.org/interest.html - liệt kê các tài nguyên về TeX trên mạng,
+     * [14]tug.org/interest.html - liệt kê các tài nguyên về TeX trên mạng,
        bao gồm tài liệu, hệ thống, gói, phông chữ, và nhiều thứ khác.
-     * [14]tug.org/ctan.html - điểm bắt đầu của kho CTAN (Comprehensive TeX
+     * [15]tug.org/ctan.html - điểm bắt đầu của kho CTAN (Comprehensive TeX
        Archive Network) gồm mọi thứ về TeX.
-     * [15]tug.org/usergroups.html - danh sách các nhóm người dùng TeX
+     * [16]tug.org/usergroups.html - danh sách các nhóm người dùng TeX
        trên thế giới cùng địa chỉ liên hệ. Chúng tôi khuyến khích bạn tham
        gia các nhóm địa phương để hỗ trợ TeX Live và các hoạt động liên quan
        đến TeX.
@@ -74,7 +80,7 @@ Chào mừng bạn đến với TeX Live
     Happy TeXing!
      __________________________________________________________________
 
-   [16]Trang chủ TeX Live.
+   [17]Trang chủ TeX Live.
 
 Tham khảo
 
@@ -87,10 +93,11 @@ Tham khảo
    7. file:../texmf-dist/doc/texlive/
    8. file:../doc.html
    9. https://tug.org/texlive/doc.html
-  10. https://tug.org/texlive/doc/install-tl.html
-  11. https://tug.org/texlive/tlmgr.html
-  12. https://tug.org/begin.html
-  13. https://tug.org/interest.html
-  14. https://tug.org/ctan.html
-  15. https://tug.org/usergroups.html
-  16. https://tug.org/texlive/
+  10. https://tug.org/mactex/
+  11. https://tug.org/texlive/doc/install-tl.html
+  12. https://tug.org/texlive/tlmgr.html
+  13. https://tug.org/begin.html
+  14. https://tug.org/interest.html
+  15. https://tug.org/ctan.html
+  16. https://tug.org/usergroups.html
+  17. https://tug.org/texlive/
